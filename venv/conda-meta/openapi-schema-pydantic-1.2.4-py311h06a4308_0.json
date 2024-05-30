@@ -1,0 +1,1162 @@
+{
+  "build": "py311h06a4308_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "pydantic >=1.8.2",
+    "python >=3.11,<3.12.0a0"
+  ],
+  "extracted_package_dir": "/opt/conda/pkgs/openapi-schema-pydantic-1.2.4-py311h06a4308_0",
+  "files": [
+    "lib/python3.11/site-packages/openapi_schema_pydantic-1.2.4.dist-info/INSTALLER",
+    "lib/python3.11/site-packages/openapi_schema_pydantic-1.2.4.dist-info/LICENSE",
+    "lib/python3.11/site-packages/openapi_schema_pydantic-1.2.4.dist-info/METADATA",
+    "lib/python3.11/site-packages/openapi_schema_pydantic-1.2.4.dist-info/RECORD",
+    "lib/python3.11/site-packages/openapi_schema_pydantic-1.2.4.dist-info/REQUESTED",
+    "lib/python3.11/site-packages/openapi_schema_pydantic-1.2.4.dist-info/WHEEL",
+    "lib/python3.11/site-packages/openapi_schema_pydantic-1.2.4.dist-info/direct_url.json",
+    "lib/python3.11/site-packages/openapi_schema_pydantic-1.2.4.dist-info/top_level.txt",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/__init__.py",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/__pycache__/util.cpython-311.pyc",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/py.typed",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/util.py",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/__init__.py",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/__init__.py",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/__pycache__/callback.cpython-311.pyc",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/__pycache__/components.cpython-311.pyc",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/__pycache__/contact.cpython-311.pyc",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/__pycache__/discriminator.cpython-311.pyc",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/__pycache__/encoding.cpython-311.pyc",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/__pycache__/example.cpython-311.pyc",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/__pycache__/external_documentation.cpython-311.pyc",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/__pycache__/header.cpython-311.pyc",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/__pycache__/info.cpython-311.pyc",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/__pycache__/license.cpython-311.pyc",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/__pycache__/link.cpython-311.pyc",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/__pycache__/media_type.cpython-311.pyc",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/__pycache__/oauth_flow.cpython-311.pyc",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/__pycache__/oauth_flows.cpython-311.pyc",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/__pycache__/open_api.cpython-311.pyc",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/__pycache__/operation.cpython-311.pyc",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/__pycache__/parameter.cpython-311.pyc",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/__pycache__/path_item.cpython-311.pyc",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/__pycache__/paths.cpython-311.pyc",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/__pycache__/reference.cpython-311.pyc",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/__pycache__/request_body.cpython-311.pyc",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/__pycache__/response.cpython-311.pyc",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/__pycache__/responses.cpython-311.pyc",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/__pycache__/schema.cpython-311.pyc",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/__pycache__/security_requirement.cpython-311.pyc",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/__pycache__/security_scheme.cpython-311.pyc",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/__pycache__/server.cpython-311.pyc",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/__pycache__/server_variable.cpython-311.pyc",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/__pycache__/tag.cpython-311.pyc",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/__pycache__/util.cpython-311.pyc",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/__pycache__/xml.cpython-311.pyc",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/callback.py",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/components.py",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/contact.py",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/discriminator.py",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/encoding.py",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/example.py",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/external_documentation.py",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/header.py",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/info.py",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/license.py",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/link.py",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/media_type.py",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/oauth_flow.py",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/oauth_flows.py",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/open_api.py",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/operation.py",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/parameter.py",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/path_item.py",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/paths.py",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/reference.py",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/request_body.py",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/response.py",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/responses.py",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/schema.py",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/security_requirement.py",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/security_scheme.py",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/server.py",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/server_variable.py",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/tag.py",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/util.py",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/xml.py",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/__init__.py",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/__pycache__/callback.cpython-311.pyc",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/__pycache__/components.cpython-311.pyc",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/__pycache__/contact.cpython-311.pyc",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/__pycache__/discriminator.cpython-311.pyc",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/__pycache__/encoding.cpython-311.pyc",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/__pycache__/example.cpython-311.pyc",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/__pycache__/external_documentation.cpython-311.pyc",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/__pycache__/header.cpython-311.pyc",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/__pycache__/info.cpython-311.pyc",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/__pycache__/license.cpython-311.pyc",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/__pycache__/link.cpython-311.pyc",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/__pycache__/media_type.cpython-311.pyc",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/__pycache__/oauth_flow.cpython-311.pyc",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/__pycache__/oauth_flows.cpython-311.pyc",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/__pycache__/open_api.cpython-311.pyc",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/__pycache__/operation.cpython-311.pyc",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/__pycache__/parameter.cpython-311.pyc",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/__pycache__/path_item.cpython-311.pyc",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/__pycache__/paths.cpython-311.pyc",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/__pycache__/reference.cpython-311.pyc",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/__pycache__/request_body.cpython-311.pyc",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/__pycache__/response.cpython-311.pyc",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/__pycache__/responses.cpython-311.pyc",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/__pycache__/schema.cpython-311.pyc",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/__pycache__/security_requirement.cpython-311.pyc",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/__pycache__/security_scheme.cpython-311.pyc",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/__pycache__/server.cpython-311.pyc",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/__pycache__/server_variable.cpython-311.pyc",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/__pycache__/tag.cpython-311.pyc",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/__pycache__/xml.cpython-311.pyc",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/callback.py",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/components.py",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/contact.py",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/discriminator.py",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/encoding.py",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/example.py",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/external_documentation.py",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/header.py",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/info.py",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/license.py",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/link.py",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/media_type.py",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/oauth_flow.py",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/oauth_flows.py",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/open_api.py",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/operation.py",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/parameter.py",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/path_item.py",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/paths.py",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/reference.py",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/request_body.py",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/response.py",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/responses.py",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/schema.py",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/security_requirement.py",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/security_scheme.py",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/server.py",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/server_variable.py",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/tag.py",
+    "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/xml.py"
+  ],
+  "fn": "openapi-schema-pydantic-1.2.4-py311h06a4308_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/opt/conda/pkgs/openapi-schema-pydantic-1.2.4-py311h06a4308_0",
+    "type": 1
+  },
+  "md5": "d06e677a4e07da2178dd53cec19b30d6",
+  "name": "openapi-schema-pydantic",
+  "package_tarball_full_path": "/opt/conda/pkgs/openapi-schema-pydantic-1.2.4-py311h06a4308_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic-1.2.4.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic-1.2.4.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "ca8cbaa3027b6c0ad54958e908da14d33b8688ddcb031a8d550d7f640ba639ff",
+        "sha256_in_prefix": "ca8cbaa3027b6c0ad54958e908da14d33b8688ddcb031a8d550d7f640ba639ff",
+        "size_in_bytes": 1064
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic-1.2.4.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "e93a1e1f8b46d6eb4bd40dce623c26160337f182d499873fc819f7ba715d99ec",
+        "sha256_in_prefix": "e93a1e1f8b46d6eb4bd40dce623c26160337f182d499873fc819f7ba715d99ec",
+        "size_in_bytes": 8503
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic-1.2.4.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "d4288a6c005558a2001f71542590111e54bd247307ddd4e5cf3a740cabe00042",
+        "sha256_in_prefix": "d4288a6c005558a2001f71542590111e54bd247307ddd4e5cf3a740cabe00042",
+        "size_in_bytes": 12605
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic-1.2.4.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic-1.2.4.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "db07a93359e4e034b8785a58ad6d534ea3dca0635f1e184efe2e66e1c3a299ba",
+        "sha256_in_prefix": "db07a93359e4e034b8785a58ad6d534ea3dca0635f1e184efe2e66e1c3a299ba",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic-1.2.4.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "0609c0c9abb3e1d3aaa367d7bd6d41878094d45df3b55054564310ae20423900",
+        "sha256_in_prefix": "0609c0c9abb3e1d3aaa367d7bd6d41878094d45df3b55054564310ae20423900",
+        "size_in_bytes": 83
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic-1.2.4.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "c60f0284394067b7a5dd2e932e52d1d08182082304756470df0e49b3b3ee856d",
+        "sha256_in_prefix": "c60f0284394067b7a5dd2e932e52d1d08182082304756470df0e49b3b3ee856d",
+        "size_in_bytes": 24
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "9956e5c13412e7fa1e9e18bb9afd639b9bbcd33bde76e4e990b8f4da5346d19d",
+        "sha256_in_prefix": "9956e5c13412e7fa1e9e18bb9afd639b9bbcd33bde76e4e990b8f4da5346d19d",
+        "size_in_bytes": 98
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "a557d619d1c630834de888707d0a968f0458aae9dae098e728b60aec7a6efe1e",
+        "sha256_in_prefix": "a557d619d1c630834de888707d0a968f0458aae9dae098e728b60aec7a6efe1e",
+        "size_in_bytes": 420
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/__pycache__/util.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "62adb93692fca3987987f571c7ae497702d3fd604fa00ccf688e96e4d08027e9",
+        "sha256_in_prefix": "62adb93692fca3987987f571c7ae497702d3fd604fa00ccf688e96e4d08027e9",
+        "size_in_bytes": 7847
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/py.typed",
+        "path_type": "hardlink",
+        "sha256": "f0f8f2675695a10a5156fb7bd66bafbaae6a13e8d315990af862c792175e6e67",
+        "sha256_in_prefix": "f0f8f2675695a10a5156fb7bd66bafbaae6a13e8d315990af862c792175e6e67",
+        "size_in_bytes": 26
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/util.py",
+        "path_type": "hardlink",
+        "sha256": "d8e10f40572d93b186c42adbdc95e8f88a31788a152aa024c65a14c129f67902",
+        "sha256_in_prefix": "d8e10f40572d93b186c42adbdc95e8f88a31788a152aa024c65a14c129f67902",
+        "size_in_bytes": 5121
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "4cacb730b1e2384f2e58887eb836c8fb8bea59326c74dc732bf3c3479d47df2f",
+        "sha256_in_prefix": "4cacb730b1e2384f2e58887eb836c8fb8bea59326c74dc732bf3c3479d47df2f",
+        "size_in_bytes": 22
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "2789067e32b9fca70bb305bbf2ae00c1928b24a4c6ee88bac305c7d8c14eb98c",
+        "sha256_in_prefix": "2789067e32b9fca70bb305bbf2ae00c1928b24a4c6ee88bac305c7d8c14eb98c",
+        "size_in_bytes": 207
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "ef7efdf72280dcddf2e8ec25476d09871dbe96d81b72f56a2586c33e7b96b9b2",
+        "sha256_in_prefix": "ef7efdf72280dcddf2e8ec25476d09871dbe96d81b72f56a2586c33e7b96b9b2",
+        "size_in_bytes": 1405
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "c955901cf6b019dcdc333c3ecf6e0a68fdfee2b6e7b733f7c0c49b8e1fef52b8",
+        "sha256_in_prefix": "c955901cf6b019dcdc333c3ecf6e0a68fdfee2b6e7b733f7c0c49b8e1fef52b8",
+        "size_in_bytes": 2410
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/__pycache__/callback.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "0f1b8e74bd74856923692f755eeeca7d3a5228b7ac6a67dd240693f5644f8a30",
+        "sha256_in_prefix": "0f1b8e74bd74856923692f755eeeca7d3a5228b7ac6a67dd240693f5644f8a30",
+        "size_in_bytes": 311
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/__pycache__/components.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "a216126c2503aa702c5abe4758c08ca237efa51d51e0e795cd4b8b8ba2128ccc",
+        "sha256_in_prefix": "a216126c2503aa702c5abe4758c08ca237efa51d51e0e795cd4b8b8ba2128ccc",
+        "size_in_bytes": 4194
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/__pycache__/contact.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "d8c1ec41d43ef0d83e8c40832ece5fa3ed2cfd1a76fa235646c130401006c6be",
+        "sha256_in_prefix": "d8c1ec41d43ef0d83e8c40832ece5fa3ed2cfd1a76fa235646c130401006c6be",
+        "size_in_bytes": 1285
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/__pycache__/discriminator.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "6629cd73658390cc280cc86630964f0efd7bc594f64251b38c2184a04323fd89",
+        "sha256_in_prefix": "6629cd73658390cc280cc86630964f0efd7bc594f64251b38c2184a04323fd89",
+        "size_in_bytes": 1715
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/__pycache__/encoding.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "184dd89a0ba49d53e659e18939b8cc0c7112d3a5ee81d32a6e0810fcefd646d1",
+        "sha256_in_prefix": "184dd89a0ba49d53e659e18939b8cc0c7112d3a5ee81d32a6e0810fcefd646d1",
+        "size_in_bytes": 1696
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/__pycache__/example.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "5f3590e2440d85a395b1c41e1b984f26fbdc99e74135cd043efe4715c43f0050",
+        "sha256_in_prefix": "5f3590e2440d85a395b1c41e1b984f26fbdc99e74135cd043efe4715c43f0050",
+        "size_in_bytes": 1449
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/__pycache__/external_documentation.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "930c2296e32eec0d5f71536f61f5b408ac299c2a8c493a2de2622dba83714868",
+        "sha256_in_prefix": "930c2296e32eec0d5f71536f61f5b408ac299c2a8c493a2de2622dba83714868",
+        "size_in_bytes": 1245
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/__pycache__/header.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "3afbd19b4c27a2f82432daeb8e905ed9f758584d0dadfb4c5849f10f785495cf",
+        "sha256_in_prefix": "3afbd19b4c27a2f82432daeb8e905ed9f758584d0dadfb4c5849f10f785495cf",
+        "size_in_bytes": 1629
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/__pycache__/info.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "0cf25a2e1c5f993a9a8aa6061b5ee3f96cdacc703531902d1a69176e7ede8ca3",
+        "sha256_in_prefix": "0cf25a2e1c5f993a9a8aa6061b5ee3f96cdacc703531902d1a69176e7ede8ca3",
+        "size_in_bytes": 2001
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/__pycache__/license.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "c7e706b8d6cf5554a017e6ea3a41b23be03e087db363757309626a8420b541fb",
+        "sha256_in_prefix": "c7e706b8d6cf5554a017e6ea3a41b23be03e087db363757309626a8420b541fb",
+        "size_in_bytes": 1201
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/__pycache__/link.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "2d861ec5171dafcf1a51292ba681fc30c49f320911f6df7c3425377503b0fa09",
+        "sha256_in_prefix": "2d861ec5171dafcf1a51292ba681fc30c49f320911f6df7c3425377503b0fa09",
+        "size_in_bytes": 2380
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/__pycache__/media_type.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "a98ffe3973c9d8d25d08439f9dd7f61751b53b0d0d37887af547621d79aae927",
+        "sha256_in_prefix": "a98ffe3973c9d8d25d08439f9dd7f61751b53b0d0d37887af547621d79aae927",
+        "size_in_bytes": 2250
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/__pycache__/oauth_flow.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "7ae9673a6de13a0b183be812b1d90bca1b560e73b72d1f2ebefd6195d2ae362f",
+        "sha256_in_prefix": "7ae9673a6de13a0b183be812b1d90bca1b560e73b72d1f2ebefd6195d2ae362f",
+        "size_in_bytes": 1792
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/__pycache__/oauth_flows.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "30fc107dec72bc3b3dc58e5b36c68a631fe8e987db7948a0f582e923b5c0aa14",
+        "sha256_in_prefix": "30fc107dec72bc3b3dc58e5b36c68a631fe8e987db7948a0f582e923b5c0aa14",
+        "size_in_bytes": 1292
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/__pycache__/open_api.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "81c88e3dedd6ceb3e837dbe1c53e3e8d481042a6bec2c0ae5400e25f10427858",
+        "sha256_in_prefix": "81c88e3dedd6ceb3e837dbe1c53e3e8d481042a6bec2c0ae5400e25f10427858",
+        "size_in_bytes": 1983
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/__pycache__/operation.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "e379d4cac3dfa8301c53de42d2603c1ff30d9ec4ed02b2aa32c43a88ad357789",
+        "sha256_in_prefix": "e379d4cac3dfa8301c53de42d2603c1ff30d9ec4ed02b2aa32c43a88ad357789",
+        "size_in_bytes": 3411
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/__pycache__/parameter.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "81c8a7bc540b8e97f7f8d8e0396fc7462cee2a312a79faad602b46218a5987b3",
+        "sha256_in_prefix": "81c8a7bc540b8e97f7f8d8e0396fc7462cee2a312a79faad602b46218a5987b3",
+        "size_in_bytes": 3364
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/__pycache__/path_item.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "9b4a13d72d0284e0e8afcdf949d93f57a73450a6cd19c4b4ad77fef0c9fdd522",
+        "sha256_in_prefix": "9b4a13d72d0284e0e8afcdf949d93f57a73450a6cd19c4b4ad77fef0c9fdd522",
+        "size_in_bytes": 3204
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/__pycache__/paths.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "4f3618c4958b3bd3a0f102a7c0408d3457c4dfcee93e3cc39853c554ff06bbca",
+        "sha256_in_prefix": "4f3618c4958b3bd3a0f102a7c0408d3457c4dfcee93e3cc39853c554ff06bbca",
+        "size_in_bytes": 358
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/__pycache__/reference.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "e7dc36818625e2b9af080342367414cb2fa0cceb7bb9ed0e5de75305e4b75810",
+        "sha256_in_prefix": "e7dc36818625e2b9af080342367414cb2fa0cceb7bb9ed0e5de75305e4b75810",
+        "size_in_bytes": 1560
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/__pycache__/request_body.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "8521aa9c92fa623f80818a6116a1034246a8a1a4cbc64f46571f604ddc3cc4af",
+        "sha256_in_prefix": "8521aa9c92fa623f80818a6116a1034246a8a1a4cbc64f46571f604ddc3cc4af",
+        "size_in_bytes": 2081
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/__pycache__/response.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "2e19362798f077fae4164e693a514e8f3e6d42aa7971a0fe8f1ff083205f7fe0",
+        "sha256_in_prefix": "2e19362798f077fae4164e693a514e8f3e6d42aa7971a0fe8f1ff083205f7fe0",
+        "size_in_bytes": 2560
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/__pycache__/responses.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "ad9e640010659992e6dda83a519b4e42644efab3e0b62f39345b29e6a88d5ca0",
+        "sha256_in_prefix": "ad9e640010659992e6dda83a519b4e42644efab3e0b62f39345b29e6a88d5ca0",
+        "size_in_bytes": 487
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/__pycache__/schema.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "fa76dac56df4a5508ef6a9dee3953092396f8a3c88598b298fc80cc5a12e5eb9",
+        "sha256_in_prefix": "fa76dac56df4a5508ef6a9dee3953092396f8a3c88598b298fc80cc5a12e5eb9",
+        "size_in_bytes": 6900
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/__pycache__/security_requirement.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "6b200d03a6e484b95c5f6d6d29d7a264cddf76c0241a346fa504dd33b631fb07",
+        "sha256_in_prefix": "6b200d03a6e484b95c5f6d6d29d7a264cddf76c0241a346fa504dd33b631fb07",
+        "size_in_bytes": 362
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/__pycache__/security_scheme.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "4b740b6aef1aa7beb543169c1bd0843d7617bccb37a6dc71a17e5f23d7e2514c",
+        "sha256_in_prefix": "4b740b6aef1aa7beb543169c1bd0843d7617bccb37a6dc71a17e5f23d7e2514c",
+        "size_in_bytes": 2725
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/__pycache__/server.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "262d61fa2cab50fc35e077d189ddd6a254adf829ddb0824a214ce7a1bf66b2fe",
+        "sha256_in_prefix": "262d61fa2cab50fc35e077d189ddd6a254adf829ddb0824a214ce7a1bf66b2fe",
+        "size_in_bytes": 1725
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/__pycache__/server_variable.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "2a0882159bd23ce8833d9458befab8c137c7e32594ee587c255988ca3b48b1c5",
+        "sha256_in_prefix": "2a0882159bd23ce8833d9458befab8c137c7e32594ee587c255988ca3b48b1c5",
+        "size_in_bytes": 1183
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/__pycache__/tag.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "897be18b94f1258ea65282f34257443cb0fd2e02d07f114d5b501ebe91fa4c27",
+        "sha256_in_prefix": "897be18b94f1258ea65282f34257443cb0fd2e02d07f114d5b501ebe91fa4c27",
+        "size_in_bytes": 1441
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/__pycache__/util.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "ffb73313f0b581ab56b7f6d77bd8bd1a8bb636a8e5a1365ebd23dfff37a6abaa",
+        "sha256_in_prefix": "ffb73313f0b581ab56b7f6d77bd8bd1a8bb636a8e5a1365ebd23dfff37a6abaa",
+        "size_in_bytes": 7857
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/__pycache__/xml.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "454102c336f5b7a2f2551757a4d07265ef5c5c6b98371c00dca2fc2c15e43e51",
+        "sha256_in_prefix": "454102c336f5b7a2f2551757a4d07265ef5c5c6b98371c00dca2fc2c15e43e51",
+        "size_in_bytes": 1603
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/callback.py",
+        "path_type": "hardlink",
+        "sha256": "04e5068e4097962ef7aee2aba605b2f1786f5ccf27fb498b1dabb43788267114",
+        "sha256_in_prefix": "04e5068e4097962ef7aee2aba605b2f1786f5ccf27fb498b1dabb43788267114",
+        "size_in_bytes": 674
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/components.py",
+        "path_type": "hardlink",
+        "sha256": "1e4e921dcff61d75119f26c726b2868c12ddaeeb6230b20500a9ae2d5f5e900f",
+        "sha256_in_prefix": "1e4e921dcff61d75119f26c726b2868c12ddaeeb6230b20500a9ae2d5f5e900f",
+        "size_in_bytes": 4981
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/contact.py",
+        "path_type": "hardlink",
+        "sha256": "4ded4d18978cc36594dd077f4050f1a9946ce7db0ea25ec99f4370e53cae215b",
+        "sha256_in_prefix": "4ded4d18978cc36594dd077f4050f1a9946ce7db0ea25ec99f4370e53cae215b",
+        "size_in_bytes": 798
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/discriminator.py",
+        "path_type": "hardlink",
+        "sha256": "9c4c28cd499c60a9f7bf1c27b3fd4a13ed42a1e6ea0f764171e6722732f9a718",
+        "sha256_in_prefix": "9c4c28cd499c60a9f7bf1c27b3fd4a13ed42a1e6ea0f764171e6722732f9a718",
+        "size_in_bytes": 1276
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/encoding.py",
+        "path_type": "hardlink",
+        "sha256": "c2134a6e77da28064ae034ad6f5a7d92fee06603757d33a6656ecbd6687ed920",
+        "sha256_in_prefix": "c2134a6e77da28064ae034ad6f5a7d92fee06603757d33a6656ecbd6687ed920",
+        "size_in_bytes": 3021
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/example.py",
+        "path_type": "hardlink",
+        "sha256": "52ceed0101cfbc8a0c8e39af12975f8b61d8a9e483ade3eb4c73310414d84d94",
+        "sha256_in_prefix": "52ceed0101cfbc8a0c8e39af12975f8b61d8a9e483ade3eb4c73310414d84d94",
+        "size_in_bytes": 1486
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/external_documentation.py",
+        "path_type": "hardlink",
+        "sha256": "8af35c446c9659055b76896466e6e93c7b5282dc9c9fa2633476c7165031ce55",
+        "sha256_in_prefix": "8af35c446c9659055b76896466e6e93c7b5282dc9c9fa2633476c7165031ce55",
+        "size_in_bytes": 692
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/header.py",
+        "path_type": "hardlink",
+        "sha256": "46dd9c1e9ae2e0d256e8a54dbd3a455b9aa2631b9939f9a1f04617b2f90ffd0e",
+        "sha256_in_prefix": "46dd9c1e9ae2e0d256e8a54dbd3a455b9aa2631b9939f9a1f04617b2f90ffd0e",
+        "size_in_bytes": 918
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/info.py",
+        "path_type": "hardlink",
+        "sha256": "74fc6983122cf61af1923b26625b4f568d0ed38b97bce5ce2fc45f71267aa236",
+        "sha256_in_prefix": "74fc6983122cf61af1923b26625b4f568d0ed38b97bce5ce2fc45f71267aa236",
+        "size_in_bytes": 1925
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/license.py",
+        "path_type": "hardlink",
+        "sha256": "e440410e755cb576218db614cf7bf9a6dc2a21a7d39f90bd008cf891aa9bdb54",
+        "sha256_in_prefix": "e440410e755cb576218db614cf7bf9a6dc2a21a7d39f90bd008cf891aa9bdb54",
+        "size_in_bytes": 552
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/link.py",
+        "path_type": "hardlink",
+        "sha256": "05a4987f8f2ffe2ca6588f38d0eed9b092d743d62e01810fdaa9732dac81a4d7",
+        "sha256_in_prefix": "05a4987f8f2ffe2ca6588f38d0eed9b092d743d62e01810fdaa9732dac81a4d7",
+        "size_in_bytes": 2869
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/media_type.py",
+        "path_type": "hardlink",
+        "sha256": "bed3116760a4472d9b1b9834b40e4ebca4f82840bc72d13025ec87df94412d6c",
+        "sha256_in_prefix": "bed3116760a4472d9b1b9834b40e4ebca4f82840bc72d13025ec87df94412d6c",
+        "size_in_bytes": 2963
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/oauth_flow.py",
+        "path_type": "hardlink",
+        "sha256": "be1ef0823d97cc7af0f64f44c6ce224df977ded67357bccbdd6daeba92077c9b",
+        "sha256_in_prefix": "be1ef0823d97cc7af0f64f44c6ce224df977ded67357bccbdd6daeba92077c9b",
+        "size_in_bytes": 2078
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/oauth_flows.py",
+        "path_type": "hardlink",
+        "sha256": "f9c877e8e5c4d8569f0debf7fe27eb3db5ea4106ef4beb18fc84262769b9dace",
+        "sha256_in_prefix": "f9c877e8e5c4d8569f0debf7fe27eb3db5ea4106ef4beb18fc84262769b9dace",
+        "size_in_bytes": 836
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/open_api.py",
+        "path_type": "hardlink",
+        "sha256": "03f94594b6086520993876d77dfe39cda1170773ec82fe9805269df382f5a9c4",
+        "sha256_in_prefix": "03f94594b6086520993876d77dfe39cda1170773ec82fe9805269df382f5a9c4",
+        "size_in_bytes": 2627
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/operation.py",
+        "path_type": "hardlink",
+        "sha256": "743bfe51fe8f48969cf3863ccf9d8ccdd489105495ae7723c8a3b0cdfee95a45",
+        "sha256_in_prefix": "743bfe51fe8f48969cf3863ccf9d8ccdd489105495ae7723c8a3b0cdfee95a45",
+        "size_in_bytes": 6126
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/parameter.py",
+        "path_type": "hardlink",
+        "sha256": "64415e6849f0fe69b598c893db8c0a512a82a33a03a55d8ee6c6142d4bfb3cb0",
+        "sha256_in_prefix": "64415e6849f0fe69b598c893db8c0a512a82a33a03a55d8ee6c6142d4bfb3cb0",
+        "size_in_bytes": 7541
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/path_item.py",
+        "path_type": "hardlink",
+        "sha256": "ab35e04d1389645ebf0cfd0e63d7f1fc0102663a5b1d4ca39a863460a0157d21",
+        "sha256_in_prefix": "ab35e04d1389645ebf0cfd0e63d7f1fc0102663a5b1d4ca39a863460a0157d21",
+        "size_in_bytes": 4375
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/paths.py",
+        "path_type": "hardlink",
+        "sha256": "6a109690f6562cd52079f5ec3b7e8c61a272f27d428dbf71605cd5414d5d9ed5",
+        "sha256_in_prefix": "6a109690f6562cd52079f5ec3b7e8c61a272f27d428dbf71605cd5414d5d9ed5",
+        "size_in_bytes": 1013
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/reference.py",
+        "path_type": "hardlink",
+        "sha256": "cd26e9f765d45871a89c00ccd96b131caad47d2c43407ae1d1b5cecfe5e87ea3",
+        "sha256_in_prefix": "cd26e9f765d45871a89c00ccd96b131caad47d2c43407ae1d1b5cecfe5e87ea3",
+        "size_in_bytes": 859
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/request_body.py",
+        "path_type": "hardlink",
+        "sha256": "0a66af3c1cd17562c4dfad894cab86500c0e82316c997f98cbe38e4d7d853885",
+        "sha256_in_prefix": "0a66af3c1cd17562c4dfad894cab86500c0e82316c997f98cbe38e4d7d853885",
+        "size_in_bytes": 3106
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/response.py",
+        "path_type": "hardlink",
+        "sha256": "032d967dc5a6464a4a04aa67baf3df41d46fee2d1d93b940a60aafff24b4ea5e",
+        "sha256_in_prefix": "032d967dc5a6464a4a04aa67baf3df41d46fee2d1d93b940a60aafff24b4ea5e",
+        "size_in_bytes": 3173
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/responses.py",
+        "path_type": "hardlink",
+        "sha256": "8638935d46acf923d9d1da87df62fcfb5b3bca2eb760f23962514fd5d87de7f3",
+        "sha256_in_prefix": "8638935d46acf923d9d1da87df62fcfb5b3bca2eb760f23962514fd5d87de7f3",
+        "size_in_bytes": 2043
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/schema.py",
+        "path_type": "hardlink",
+        "sha256": "d6aeae2aff9c0758199b09dc2bf698d850c647c3596905188dabcc54035b495a",
+        "sha256_in_prefix": "d6aeae2aff9c0758199b09dc2bf698d850c647c3596905188dabcc54035b495a",
+        "size_in_bytes": 21555
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/security_requirement.py",
+        "path_type": "hardlink",
+        "sha256": "308057f0910472766b7b67cfc6da672948a9572aca9446906e37f8d07fb7567a",
+        "sha256_in_prefix": "308057f0910472766b7b67cfc6da672948a9572aca9446906e37f8d07fb7567a",
+        "size_in_bytes": 1323
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/security_scheme.py",
+        "path_type": "hardlink",
+        "sha256": "a74dd06e469396dcf17900af51465b68a6d044487ce0d6acb32054ba4cd5fac1",
+        "sha256_in_prefix": "a74dd06e469396dcf17900af51465b68a6d044487ce0d6acb32054ba4cd5fac1",
+        "size_in_bytes": 3348
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/server.py",
+        "path_type": "hardlink",
+        "sha256": "cd04cbdf7edfc7fa872b389adc084710fe27e8cf8986318daa1e770ad74e33b0",
+        "sha256_in_prefix": "cd04cbdf7edfc7fa872b389adc084710fe27e8cf8986318daa1e770ad74e33b0",
+        "size_in_bytes": 1828
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/server_variable.py",
+        "path_type": "hardlink",
+        "sha256": "4a14545fc92ecd53e5074b858ec21cc8503d3881157e5355a3ee36a5b80b5edc",
+        "sha256_in_prefix": "4a14545fc92ecd53e5074b858ec21cc8503d3881157e5355a3ee36a5b80b5edc",
+        "size_in_bytes": 1067
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/tag.py",
+        "path_type": "hardlink",
+        "sha256": "49d27a6f6a0c0b13e9d252e6c39a290b77faca2fe67c7e92e3239b7c0df7b692",
+        "sha256_in_prefix": "49d27a6f6a0c0b13e9d252e6c39a290b77faca2fe67c7e92e3239b7c0df7b692",
+        "size_in_bytes": 881
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/util.py",
+        "path_type": "hardlink",
+        "sha256": "d8e10f40572d93b186c42adbdc95e8f88a31788a152aa024c65a14c129f67902",
+        "sha256_in_prefix": "d8e10f40572d93b186c42adbdc95e8f88a31788a152aa024c65a14c129f67902",
+        "size_in_bytes": 5121
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_0_3/xml.py",
+        "path_type": "hardlink",
+        "sha256": "7956e8df4f646aeee705247c9b8fcbf9b4cb913957723835ed8acb90ba4ff11b",
+        "sha256_in_prefix": "7956e8df4f646aeee705247c9b8fcbf9b4cb913957723835ed8acb90ba4ff11b",
+        "size_in_bytes": 1843
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d44428d712aa3d1eaedc55ff7df3db063bade622aa83356f32e343586ce2d571",
+        "sha256_in_prefix": "d44428d712aa3d1eaedc55ff7df3db063bade622aa83356f32e343586ce2d571",
+        "size_in_bytes": 1404
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "5c27fabefcadebe8b4f4282486830a86a5b01cd9f7f67b21ca9f72bd6c992e11",
+        "sha256_in_prefix": "5c27fabefcadebe8b4f4282486830a86a5b01cd9f7f67b21ca9f72bd6c992e11",
+        "size_in_bytes": 2410
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/__pycache__/callback.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "d39ad478430e9e44834f09839e2948358e8a44d591bc2783bb99bdf6d9dda415",
+        "sha256_in_prefix": "d39ad478430e9e44834f09839e2948358e8a44d591bc2783bb99bdf6d9dda415",
+        "size_in_bytes": 424
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/__pycache__/components.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "7dabee08f1ee5cfb56a70dc963facdcf1bf948021def9a1dbd1f360a36b6aecb",
+        "sha256_in_prefix": "7dabee08f1ee5cfb56a70dc963facdcf1bf948021def9a1dbd1f360a36b6aecb",
+        "size_in_bytes": 4349
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/__pycache__/contact.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "d638d0cae0f3b4e116fd7c4fea2631eb7f9aa28e25a14df5e9073e04d1dfc155",
+        "sha256_in_prefix": "d638d0cae0f3b4e116fd7c4fea2631eb7f9aa28e25a14df5e9073e04d1dfc155",
+        "size_in_bytes": 1285
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/__pycache__/discriminator.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "4369581bdab0c6b721241e912325cfa96ff9595d15899a1f25ea47a91f533620",
+        "sha256_in_prefix": "4369581bdab0c6b721241e912325cfa96ff9595d15899a1f25ea47a91f533620",
+        "size_in_bytes": 1715
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/__pycache__/encoding.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "7f13966d9ae0f0cca75c0f5de14a9c594af0c0e47b3147ddc7e74c95dccffb1a",
+        "sha256_in_prefix": "7f13966d9ae0f0cca75c0f5de14a9c594af0c0e47b3147ddc7e74c95dccffb1a",
+        "size_in_bytes": 1696
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/__pycache__/example.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "1a4d5f589e5367713407ac22344e03971664b5f85ef5c940ed83fde48243b37e",
+        "sha256_in_prefix": "1a4d5f589e5367713407ac22344e03971664b5f85ef5c940ed83fde48243b37e",
+        "size_in_bytes": 1449
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/__pycache__/external_documentation.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "ae9f97c9b0386c019f390c2a34b24dc9ae0e98639d15a76b4ac29f6dfbe07f9c",
+        "sha256_in_prefix": "ae9f97c9b0386c019f390c2a34b24dc9ae0e98639d15a76b4ac29f6dfbe07f9c",
+        "size_in_bytes": 1245
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/__pycache__/header.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "ab74419c473c545fe6b162fae328bc7fe7ef13638ade69b38669f03adb44cf36",
+        "sha256_in_prefix": "ab74419c473c545fe6b162fae328bc7fe7ef13638ade69b38669f03adb44cf36",
+        "size_in_bytes": 1629
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/__pycache__/info.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "68c333fd190835b2f21aa4bda1a057257eb0490c8cf0c01d8256b4f1087d770f",
+        "sha256_in_prefix": "68c333fd190835b2f21aa4bda1a057257eb0490c8cf0c01d8256b4f1087d770f",
+        "size_in_bytes": 2102
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/__pycache__/license.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "01fa85e125ceaf11101796734744a6555a50d3bb6d048206ef495a85c7df55cf",
+        "sha256_in_prefix": "01fa85e125ceaf11101796734744a6555a50d3bb6d048206ef495a85c7df55cf",
+        "size_in_bytes": 1301
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/__pycache__/link.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "863b665ebd74583b3d5ccb99415611b9c90b79f4f25240690db332c1662b42bd",
+        "sha256_in_prefix": "863b665ebd74583b3d5ccb99415611b9c90b79f4f25240690db332c1662b42bd",
+        "size_in_bytes": 2380
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/__pycache__/media_type.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "c625ac5988bb058bde44bbc6d51d05f09dd195afe3e09d5ab350c003591b50f2",
+        "sha256_in_prefix": "c625ac5988bb058bde44bbc6d51d05f09dd195afe3e09d5ab350c003591b50f2",
+        "size_in_bytes": 2309
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/__pycache__/oauth_flow.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "10c1701ec5e326243bfc3a69498ba11750f7fbb362d9887fd4cf7ac39ca4ed21",
+        "sha256_in_prefix": "10c1701ec5e326243bfc3a69498ba11750f7fbb362d9887fd4cf7ac39ca4ed21",
+        "size_in_bytes": 1808
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/__pycache__/oauth_flows.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "9354f06526887e1a91dc83585095324b0ed24d26ad248a4910056304136b2fef",
+        "sha256_in_prefix": "9354f06526887e1a91dc83585095324b0ed24d26ad248a4910056304136b2fef",
+        "size_in_bytes": 1292
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/__pycache__/open_api.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "41c9de3592f81c1d81c476fd0495faef23f85d059599e23941f4456e320b6eb0",
+        "sha256_in_prefix": "41c9de3592f81c1d81c476fd0495faef23f85d059599e23941f4456e320b6eb0",
+        "size_in_bytes": 2394
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/__pycache__/operation.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "29fa81e552ee3acb79c38ba75a47e8b5abcccc741390e5207d43b8f6a5133e90",
+        "sha256_in_prefix": "29fa81e552ee3acb79c38ba75a47e8b5abcccc741390e5207d43b8f6a5133e90",
+        "size_in_bytes": 3456
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/__pycache__/parameter.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "b3cef2dd2f9280a788153f3082d010ee6bf67272388325c07fb7484b6c0d6413",
+        "sha256_in_prefix": "b3cef2dd2f9280a788153f3082d010ee6bf67272388325c07fb7484b6c0d6413",
+        "size_in_bytes": 3364
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/__pycache__/path_item.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "3347b0d051b995e6bf192ec3391120d44c4b22fbb46138ec62329af913eec4cf",
+        "sha256_in_prefix": "3347b0d051b995e6bf192ec3391120d44c4b22fbb46138ec62329af913eec4cf",
+        "size_in_bytes": 3204
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/__pycache__/paths.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "60cb266db306218f13c88386add2c8b682b6db7fcaa1fe89037fbccdaa3f7dd8",
+        "sha256_in_prefix": "60cb266db306218f13c88386add2c8b682b6db7fcaa1fe89037fbccdaa3f7dd8",
+        "size_in_bytes": 358
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/__pycache__/reference.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "a953a1bdf8c1f41a03a5a96f67c01d30651094c0e38c1476cf89ce45d14ab174",
+        "sha256_in_prefix": "a953a1bdf8c1f41a03a5a96f67c01d30651094c0e38c1476cf89ce45d14ab174",
+        "size_in_bytes": 1670
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/__pycache__/request_body.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "0a1f2ce747d6600ad07787b054dd9b2b829290347d46913e0383b2639592c432",
+        "sha256_in_prefix": "0a1f2ce747d6600ad07787b054dd9b2b829290347d46913e0383b2639592c432",
+        "size_in_bytes": 2081
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/__pycache__/response.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "ea9a9d395f3122272fe283bc14ce814364f18ae4084f585063ddeaa9a42982f8",
+        "sha256_in_prefix": "ea9a9d395f3122272fe283bc14ce814364f18ae4084f585063ddeaa9a42982f8",
+        "size_in_bytes": 2560
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/__pycache__/responses.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "6bf2b3b33dd63e22508465b6a718c24be77ba117e8f5aed0caec4ca10b0711e4",
+        "sha256_in_prefix": "6bf2b3b33dd63e22508465b6a718c24be77ba117e8f5aed0caec4ca10b0711e4",
+        "size_in_bytes": 487
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/__pycache__/schema.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "f26a1126af2fa6d430f808345b62a19bc7e505959e412878a12d21ab4ee8e9b1",
+        "sha256_in_prefix": "f26a1126af2fa6d430f808345b62a19bc7e505959e412878a12d21ab4ee8e9b1",
+        "size_in_bytes": 9044
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/__pycache__/security_requirement.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "57238df108fb3137f7fefd5987c2bd59d81bfc25d70564d79c2da6542dc8a64f",
+        "sha256_in_prefix": "57238df108fb3137f7fefd5987c2bd59d81bfc25d70564d79c2da6542dc8a64f",
+        "size_in_bytes": 362
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/__pycache__/security_scheme.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "2b660cb3137c25573244d6aa3db295fcb5a1e5c9ace8c7804764858ffd66c757",
+        "sha256_in_prefix": "2b660cb3137c25573244d6aa3db295fcb5a1e5c9ace8c7804764858ffd66c757",
+        "size_in_bytes": 3041
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/__pycache__/server.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "faa492d8f5b2e634e41d5cf46888aef2da43f2c3984662a4700259839ae74325",
+        "sha256_in_prefix": "faa492d8f5b2e634e41d5cf46888aef2da43f2c3984662a4700259839ae74325",
+        "size_in_bytes": 1725
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/__pycache__/server_variable.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "686cf2ec2616f4c15b5294d3b000ced979b971ecc730e58bf9faae7d5b9f5456",
+        "sha256_in_prefix": "686cf2ec2616f4c15b5294d3b000ced979b971ecc730e58bf9faae7d5b9f5456",
+        "size_in_bytes": 1183
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/__pycache__/tag.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "61d20812146aafd84c0b7da94bff49d7fa57c49316f8a2d45410a1887019baad",
+        "sha256_in_prefix": "61d20812146aafd84c0b7da94bff49d7fa57c49316f8a2d45410a1887019baad",
+        "size_in_bytes": 1441
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/__pycache__/xml.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "81b192665bb568ba92e5f2702a29c1856df8433020649ba972f97aea831fe3c1",
+        "sha256_in_prefix": "81b192665bb568ba92e5f2702a29c1856df8433020649ba972f97aea831fe3c1",
+        "size_in_bytes": 1668
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/callback.py",
+        "path_type": "hardlink",
+        "sha256": "f9998857598a315bec5fc669cef16e566d87ec401c83de61d23a76d208bd81bd",
+        "sha256_in_prefix": "f9998857598a315bec5fc669cef16e566d87ec401c83de61d23a76d208bd81bd",
+        "size_in_bytes": 733
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/components.py",
+        "path_type": "hardlink",
+        "sha256": "69af3e99a39190979617aab89834f3db972020fa2de6ad5490c58663a7c0644d",
+        "sha256_in_prefix": "69af3e99a39190979617aab89834f3db972020fa2de6ad5490c58663a7c0644d",
+        "size_in_bytes": 5140
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/contact.py",
+        "path_type": "hardlink",
+        "sha256": "9158d61497ad3d835468b159ea469caa12396ed9e8a8e1b14688295efff8ce23",
+        "sha256_in_prefix": "9158d61497ad3d835468b159ea469caa12396ed9e8a8e1b14688295efff8ce23",
+        "size_in_bytes": 794
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/discriminator.py",
+        "path_type": "hardlink",
+        "sha256": "9c4c28cd499c60a9f7bf1c27b3fd4a13ed42a1e6ea0f764171e6722732f9a718",
+        "sha256_in_prefix": "9c4c28cd499c60a9f7bf1c27b3fd4a13ed42a1e6ea0f764171e6722732f9a718",
+        "size_in_bytes": 1276
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/encoding.py",
+        "path_type": "hardlink",
+        "sha256": "afdef1f77aa12079cd4f641919a731819d0039ecb6d2cfa3b276f27a8c8f2420",
+        "sha256_in_prefix": "afdef1f77aa12079cd4f641919a731819d0039ecb6d2cfa3b276f27a8c8f2420",
+        "size_in_bytes": 3458
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/example.py",
+        "path_type": "hardlink",
+        "sha256": "503903ccc8603e574f63b98820c7b2b3bc19129e517c47b93e234a0e6367c075",
+        "sha256_in_prefix": "503903ccc8603e574f63b98820c7b2b3bc19129e517c47b93e234a0e6367c075",
+        "size_in_bytes": 1565
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/external_documentation.py",
+        "path_type": "hardlink",
+        "sha256": "52bacf1e4ce0a55e6778e72f1920216f3f8434585d2740f9a3652068dafbc25c",
+        "sha256_in_prefix": "52bacf1e4ce0a55e6778e72f1920216f3f8434585d2740f9a3652068dafbc25c",
+        "size_in_bytes": 690
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/header.py",
+        "path_type": "hardlink",
+        "sha256": "46dd9c1e9ae2e0d256e8a54dbd3a455b9aa2631b9939f9a1f04617b2f90ffd0e",
+        "sha256_in_prefix": "46dd9c1e9ae2e0d256e8a54dbd3a455b9aa2631b9939f9a1f04617b2f90ffd0e",
+        "size_in_bytes": 918
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/info.py",
+        "path_type": "hardlink",
+        "sha256": "d5fad380fda34fab3efed4e0af340a3bf797023bdac7d7399b3dcf9f2c059af1",
+        "sha256_in_prefix": "d5fad380fda34fab3efed4e0af340a3bf797023bdac7d7399b3dcf9f2c059af1",
+        "size_in_bytes": 2055
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/license.py",
+        "path_type": "hardlink",
+        "sha256": "465d25e2788fef9d5b573b6ad9a55b611329b9d6509d7c1c98cfda0d8d168e6d",
+        "sha256_in_prefix": "465d25e2788fef9d5b573b6ad9a55b611329b9d6509d7c1c98cfda0d8d168e6d",
+        "size_in_bytes": 981
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/link.py",
+        "path_type": "hardlink",
+        "sha256": "814bce83345daccbc8d5b65c441a5784285650980547c5dec1d332a482fa25df",
+        "sha256_in_prefix": "814bce83345daccbc8d5b65c441a5784285650980547c5dec1d332a482fa25df",
+        "size_in_bytes": 2944
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/media_type.py",
+        "path_type": "hardlink",
+        "sha256": "0d43465decfa51b8e47560043bef4e04c439080263a234d72d51bcf28f49f131",
+        "sha256_in_prefix": "0d43465decfa51b8e47560043bef4e04c439080263a234d72d51bcf28f49f131",
+        "size_in_bytes": 3043
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/oauth_flow.py",
+        "path_type": "hardlink",
+        "sha256": "7312eaf39cb1708f47d24f315d26c67ec16b9a1fd002644eb557a7ffe9c1b16b",
+        "sha256_in_prefix": "7312eaf39cb1708f47d24f315d26c67ec16b9a1fd002644eb557a7ffe9c1b16b",
+        "size_in_bytes": 2253
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/oauth_flows.py",
+        "path_type": "hardlink",
+        "sha256": "f9c877e8e5c4d8569f0debf7fe27eb3db5ea4106ef4beb18fc84262769b9dace",
+        "sha256_in_prefix": "f9c877e8e5c4d8569f0debf7fe27eb3db5ea4106ef4beb18fc84262769b9dace",
+        "size_in_bytes": 836
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/open_api.py",
+        "path_type": "hardlink",
+        "sha256": "f25fefb7a885b1cbb009c7170d95963b77fc348795035292654e76cbb5838815",
+        "sha256_in_prefix": "f25fefb7a885b1cbb009c7170d95963b77fc348795035292654e76cbb5838815",
+        "size_in_bytes": 3480
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/operation.py",
+        "path_type": "hardlink",
+        "sha256": "97fd90f5ff4ec2d47c5b6d6a64e7321baa5d944b6f3479c55e0266c20fc84e02",
+        "sha256_in_prefix": "97fd90f5ff4ec2d47c5b6d6a64e7321baa5d944b6f3479c55e0266c20fc84e02",
+        "size_in_bytes": 6401
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/parameter.py",
+        "path_type": "hardlink",
+        "sha256": "06d79c6d354d33717112af92e40045586d1e246f9cfe88fe3ae87c7ea17dcf86",
+        "sha256_in_prefix": "06d79c6d354d33717112af92e40045586d1e246f9cfe88fe3ae87c7ea17dcf86",
+        "size_in_bytes": 7541
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/path_item.py",
+        "path_type": "hardlink",
+        "sha256": "462422d9ec029dcaae24ead0b10a93930cf646f0f72f817fa5abe2d7742a8ab5",
+        "sha256_in_prefix": "462422d9ec029dcaae24ead0b10a93930cf646f0f72f817fa5abe2d7742a8ab5",
+        "size_in_bytes": 4454
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/paths.py",
+        "path_type": "hardlink",
+        "sha256": "556ec0feb6546ff1288b9c2eaae4b7cf75f93c1808d5bdbb7f33ce5dd350c89b",
+        "sha256_in_prefix": "556ec0feb6546ff1288b9c2eaae4b7cf75f93c1808d5bdbb7f33ce5dd350c89b",
+        "size_in_bytes": 1035
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/reference.py",
+        "path_type": "hardlink",
+        "sha256": "0562e58c1a6f35a4c3e4334abb5100b71bcbbf7d2d295e2b503f40b7d103e8f2",
+        "sha256_in_prefix": "0562e58c1a6f35a4c3e4334abb5100b71bcbbf7d2d295e2b503f40b7d103e8f2",
+        "size_in_bytes": 1413
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/request_body.py",
+        "path_type": "hardlink",
+        "sha256": "0a66af3c1cd17562c4dfad894cab86500c0e82316c997f98cbe38e4d7d853885",
+        "sha256_in_prefix": "0a66af3c1cd17562c4dfad894cab86500c0e82316c997f98cbe38e4d7d853885",
+        "size_in_bytes": 3106
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/response.py",
+        "path_type": "hardlink",
+        "sha256": "032d967dc5a6464a4a04aa67baf3df41d46fee2d1d93b940a60aafff24b4ea5e",
+        "sha256_in_prefix": "032d967dc5a6464a4a04aa67baf3df41d46fee2d1d93b940a60aafff24b4ea5e",
+        "size_in_bytes": 3173
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/responses.py",
+        "path_type": "hardlink",
+        "sha256": "5a74cc69027c3d89b52456a5aa33bf4d4f1d4c4c67c1de481fb8f5b300c0c632",
+        "sha256_in_prefix": "5a74cc69027c3d89b52456a5aa33bf4d4f1d4c4c67c1de481fb8f5b300c0c632",
+        "size_in_bytes": 2043
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/schema.py",
+        "path_type": "hardlink",
+        "sha256": "99f85bcf009548665be2ef5a7f1251be8e518bc3fdbb03237a1df79b7625b4c2",
+        "sha256_in_prefix": "99f85bcf009548665be2ef5a7f1251be8e518bc3fdbb03237a1df79b7625b4c2",
+        "size_in_bytes": 38197
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/security_requirement.py",
+        "path_type": "hardlink",
+        "sha256": "783a7a2b3d1d803e7a7d040ae60636eee6efc679fdec330175afaa8a0c41af81",
+        "sha256_in_prefix": "783a7a2b3d1d803e7a7d040ae60636eee6efc679fdec330175afaa8a0c41af81",
+        "size_in_bytes": 1431
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/security_scheme.py",
+        "path_type": "hardlink",
+        "sha256": "909fde04c8ae829c3edf9d059c7ec8aea3a3159d2efbd716dcbc78c65d998f0e",
+        "sha256_in_prefix": "909fde04c8ae829c3edf9d059c7ec8aea3a3159d2efbd716dcbc78c65d998f0e",
+        "size_in_bytes": 3730
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/server.py",
+        "path_type": "hardlink",
+        "sha256": "cd04cbdf7edfc7fa872b389adc084710fe27e8cf8986318daa1e770ad74e33b0",
+        "sha256_in_prefix": "cd04cbdf7edfc7fa872b389adc084710fe27e8cf8986318daa1e770ad74e33b0",
+        "size_in_bytes": 1828
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/server_variable.py",
+        "path_type": "hardlink",
+        "sha256": "1a42feeda571f7c6418d6c9f41f0558f8330e1147078041a23e6fbeac3f39e9a",
+        "sha256_in_prefix": "1a42feeda571f7c6418d6c9f41f0558f8330e1147078041a23e6fbeac3f39e9a",
+        "size_in_bytes": 1065
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/tag.py",
+        "path_type": "hardlink",
+        "sha256": "49d27a6f6a0c0b13e9d252e6c39a290b77faca2fe67c7e92e3239b7c0df7b692",
+        "sha256_in_prefix": "49d27a6f6a0c0b13e9d252e6c39a290b77faca2fe67c7e92e3239b7c0df7b692",
+        "size_in_bytes": 881
+      },
+      {
+        "_path": "lib/python3.11/site-packages/openapi_schema_pydantic/v3/v3_1_0/xml.py",
+        "path_type": "hardlink",
+        "sha256": "9e4a364c7a3c0061d683c26d88735823233fe7f8c9a348ac8e20b587041db488",
+        "sha256_in_prefix": "9e4a364c7a3c0061d683c26d88735823233fe7f8c9a348ac8e20b587041db488",
+        "size_in_bytes": 1951
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "cee61998aad7f6ee189574f99b28f800f6d80e8e30984a291717a514061bbef8",
+  "size": 68914,
+  "subdir": "linux-64",
+  "timestamp": 1682536102000,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/openapi-schema-pydantic-1.2.4-py311h06a4308_0.conda",
+  "version": "1.2.4"
+}

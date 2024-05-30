@@ -1,0 +1,1798 @@
+{
+  "build": "py311h06a4308_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "distlib >=0.3.6,<1",
+    "filelock >=3.4.1,<4",
+    "platformdirs >=2.4,<3",
+    "python >=3.11,<3.12.0a0"
+  ],
+  "extracted_package_dir": "/opt/conda/pkgs/virtualenv-20.17.1-py311h06a4308_0",
+  "files": [
+    "bin/virtualenv",
+    "lib/python3.11/site-packages/virtualenv-20.17.1.dist-info/INSTALLER",
+    "lib/python3.11/site-packages/virtualenv-20.17.1.dist-info/LICENSE",
+    "lib/python3.11/site-packages/virtualenv-20.17.1.dist-info/METADATA",
+    "lib/python3.11/site-packages/virtualenv-20.17.1.dist-info/RECORD",
+    "lib/python3.11/site-packages/virtualenv-20.17.1.dist-info/REQUESTED",
+    "lib/python3.11/site-packages/virtualenv-20.17.1.dist-info/WHEEL",
+    "lib/python3.11/site-packages/virtualenv-20.17.1.dist-info/direct_url.json",
+    "lib/python3.11/site-packages/virtualenv-20.17.1.dist-info/entry_points.txt",
+    "lib/python3.11/site-packages/virtualenv-20.17.1.dist-info/top_level.txt",
+    "lib/python3.11/site-packages/virtualenv-20.17.1.dist-info/zip-safe",
+    "lib/python3.11/site-packages/virtualenv/__init__.py",
+    "lib/python3.11/site-packages/virtualenv/__main__.py",
+    "lib/python3.11/site-packages/virtualenv/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/__pycache__/__main__.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/__pycache__/info.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/__pycache__/report.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/__pycache__/version.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/activation/__init__.py",
+    "lib/python3.11/site-packages/virtualenv/activation/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/activation/__pycache__/activator.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/activation/__pycache__/via_template.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/activation/activator.py",
+    "lib/python3.11/site-packages/virtualenv/activation/bash/__init__.py",
+    "lib/python3.11/site-packages/virtualenv/activation/bash/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/activation/bash/activate.sh",
+    "lib/python3.11/site-packages/virtualenv/activation/batch/__init__.py",
+    "lib/python3.11/site-packages/virtualenv/activation/batch/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/activation/batch/activate.bat",
+    "lib/python3.11/site-packages/virtualenv/activation/batch/deactivate.bat",
+    "lib/python3.11/site-packages/virtualenv/activation/batch/pydoc.bat",
+    "lib/python3.11/site-packages/virtualenv/activation/cshell/__init__.py",
+    "lib/python3.11/site-packages/virtualenv/activation/cshell/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/activation/cshell/activate.csh",
+    "lib/python3.11/site-packages/virtualenv/activation/fish/__init__.py",
+    "lib/python3.11/site-packages/virtualenv/activation/fish/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/activation/fish/activate.fish",
+    "lib/python3.11/site-packages/virtualenv/activation/nushell/__init__.py",
+    "lib/python3.11/site-packages/virtualenv/activation/nushell/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/activation/nushell/activate.nu",
+    "lib/python3.11/site-packages/virtualenv/activation/powershell/__init__.py",
+    "lib/python3.11/site-packages/virtualenv/activation/powershell/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/activation/powershell/activate.ps1",
+    "lib/python3.11/site-packages/virtualenv/activation/python/__init__.py",
+    "lib/python3.11/site-packages/virtualenv/activation/python/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/activation/python/__pycache__/activate_this.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/activation/python/activate_this.py",
+    "lib/python3.11/site-packages/virtualenv/activation/via_template.py",
+    "lib/python3.11/site-packages/virtualenv/app_data/__init__.py",
+    "lib/python3.11/site-packages/virtualenv/app_data/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/app_data/__pycache__/base.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/app_data/__pycache__/na.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/app_data/__pycache__/read_only.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/app_data/__pycache__/via_disk_folder.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/app_data/__pycache__/via_tempdir.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/app_data/base.py",
+    "lib/python3.11/site-packages/virtualenv/app_data/na.py",
+    "lib/python3.11/site-packages/virtualenv/app_data/read_only.py",
+    "lib/python3.11/site-packages/virtualenv/app_data/via_disk_folder.py",
+    "lib/python3.11/site-packages/virtualenv/app_data/via_tempdir.py",
+    "lib/python3.11/site-packages/virtualenv/config/__init__.py",
+    "lib/python3.11/site-packages/virtualenv/config/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/config/__pycache__/convert.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/config/__pycache__/env_var.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/config/__pycache__/ini.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/config/cli/__init__.py",
+    "lib/python3.11/site-packages/virtualenv/config/cli/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/config/cli/__pycache__/parser.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/config/cli/parser.py",
+    "lib/python3.11/site-packages/virtualenv/config/convert.py",
+    "lib/python3.11/site-packages/virtualenv/config/env_var.py",
+    "lib/python3.11/site-packages/virtualenv/config/ini.py",
+    "lib/python3.11/site-packages/virtualenv/create/__init__.py",
+    "lib/python3.11/site-packages/virtualenv/create/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/create/__pycache__/creator.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/create/__pycache__/debug.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/create/__pycache__/describe.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/create/__pycache__/pyenv_cfg.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/create/creator.py",
+    "lib/python3.11/site-packages/virtualenv/create/debug.py",
+    "lib/python3.11/site-packages/virtualenv/create/describe.py",
+    "lib/python3.11/site-packages/virtualenv/create/pyenv_cfg.py",
+    "lib/python3.11/site-packages/virtualenv/create/via_global_ref/__init__.py",
+    "lib/python3.11/site-packages/virtualenv/create/via_global_ref/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/create/via_global_ref/__pycache__/_virtualenv.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/create/via_global_ref/__pycache__/api.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/create/via_global_ref/__pycache__/store.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/create/via_global_ref/__pycache__/venv.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/create/via_global_ref/_virtualenv.py",
+    "lib/python3.11/site-packages/virtualenv/create/via_global_ref/api.py",
+    "lib/python3.11/site-packages/virtualenv/create/via_global_ref/builtin/__init__.py",
+    "lib/python3.11/site-packages/virtualenv/create/via_global_ref/builtin/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/create/via_global_ref/builtin/__pycache__/builtin_way.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/create/via_global_ref/builtin/__pycache__/ref.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/create/via_global_ref/builtin/__pycache__/via_global_self_do.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/create/via_global_ref/builtin/builtin_way.py",
+    "lib/python3.11/site-packages/virtualenv/create/via_global_ref/builtin/cpython/__init__.py",
+    "lib/python3.11/site-packages/virtualenv/create/via_global_ref/builtin/cpython/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/create/via_global_ref/builtin/cpython/__pycache__/common.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/create/via_global_ref/builtin/cpython/__pycache__/cpython2.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/create/via_global_ref/builtin/cpython/__pycache__/cpython3.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/create/via_global_ref/builtin/cpython/__pycache__/mac_os.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/create/via_global_ref/builtin/cpython/common.py",
+    "lib/python3.11/site-packages/virtualenv/create/via_global_ref/builtin/cpython/cpython2.py",
+    "lib/python3.11/site-packages/virtualenv/create/via_global_ref/builtin/cpython/cpython3.py",
+    "lib/python3.11/site-packages/virtualenv/create/via_global_ref/builtin/cpython/mac_os.py",
+    "lib/python3.11/site-packages/virtualenv/create/via_global_ref/builtin/pypy/__init__.py",
+    "lib/python3.11/site-packages/virtualenv/create/via_global_ref/builtin/pypy/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/create/via_global_ref/builtin/pypy/__pycache__/common.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/create/via_global_ref/builtin/pypy/__pycache__/pypy2.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/create/via_global_ref/builtin/pypy/__pycache__/pypy3.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/create/via_global_ref/builtin/pypy/common.py",
+    "lib/python3.11/site-packages/virtualenv/create/via_global_ref/builtin/pypy/pypy2.py",
+    "lib/python3.11/site-packages/virtualenv/create/via_global_ref/builtin/pypy/pypy3.py",
+    "lib/python3.11/site-packages/virtualenv/create/via_global_ref/builtin/python2/__init__.py",
+    "lib/python3.11/site-packages/virtualenv/create/via_global_ref/builtin/python2/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/create/via_global_ref/builtin/python2/__pycache__/python2.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/create/via_global_ref/builtin/python2/__pycache__/site.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/create/via_global_ref/builtin/python2/python2.py",
+    "lib/python3.11/site-packages/virtualenv/create/via_global_ref/builtin/python2/site.py",
+    "lib/python3.11/site-packages/virtualenv/create/via_global_ref/builtin/ref.py",
+    "lib/python3.11/site-packages/virtualenv/create/via_global_ref/builtin/via_global_self_do.py",
+    "lib/python3.11/site-packages/virtualenv/create/via_global_ref/store.py",
+    "lib/python3.11/site-packages/virtualenv/create/via_global_ref/venv.py",
+    "lib/python3.11/site-packages/virtualenv/discovery/__init__.py",
+    "lib/python3.11/site-packages/virtualenv/discovery/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/discovery/__pycache__/builtin.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/discovery/__pycache__/cached_py_info.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/discovery/__pycache__/discover.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/discovery/__pycache__/py_info.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/discovery/__pycache__/py_spec.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/discovery/builtin.py",
+    "lib/python3.11/site-packages/virtualenv/discovery/cached_py_info.py",
+    "lib/python3.11/site-packages/virtualenv/discovery/discover.py",
+    "lib/python3.11/site-packages/virtualenv/discovery/py_info.py",
+    "lib/python3.11/site-packages/virtualenv/discovery/py_spec.py",
+    "lib/python3.11/site-packages/virtualenv/discovery/windows/__init__.py",
+    "lib/python3.11/site-packages/virtualenv/discovery/windows/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/discovery/windows/__pycache__/pep514.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/discovery/windows/pep514.py",
+    "lib/python3.11/site-packages/virtualenv/info.py",
+    "lib/python3.11/site-packages/virtualenv/report.py",
+    "lib/python3.11/site-packages/virtualenv/run/__init__.py",
+    "lib/python3.11/site-packages/virtualenv/run/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/run/__pycache__/session.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/run/plugin/__init__.py",
+    "lib/python3.11/site-packages/virtualenv/run/plugin/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/run/plugin/__pycache__/activators.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/run/plugin/__pycache__/base.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/run/plugin/__pycache__/creators.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/run/plugin/__pycache__/discovery.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/run/plugin/__pycache__/seeders.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/run/plugin/activators.py",
+    "lib/python3.11/site-packages/virtualenv/run/plugin/base.py",
+    "lib/python3.11/site-packages/virtualenv/run/plugin/creators.py",
+    "lib/python3.11/site-packages/virtualenv/run/plugin/discovery.py",
+    "lib/python3.11/site-packages/virtualenv/run/plugin/seeders.py",
+    "lib/python3.11/site-packages/virtualenv/run/session.py",
+    "lib/python3.11/site-packages/virtualenv/seed/__init__.py",
+    "lib/python3.11/site-packages/virtualenv/seed/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/seed/__pycache__/seeder.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/seed/embed/__init__.py",
+    "lib/python3.11/site-packages/virtualenv/seed/embed/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/seed/embed/__pycache__/base_embed.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/seed/embed/__pycache__/pip_invoke.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/seed/embed/base_embed.py",
+    "lib/python3.11/site-packages/virtualenv/seed/embed/pip_invoke.py",
+    "lib/python3.11/site-packages/virtualenv/seed/embed/via_app_data/__init__.py",
+    "lib/python3.11/site-packages/virtualenv/seed/embed/via_app_data/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/seed/embed/via_app_data/__pycache__/via_app_data.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/seed/embed/via_app_data/pip_install/__init__.py",
+    "lib/python3.11/site-packages/virtualenv/seed/embed/via_app_data/pip_install/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/seed/embed/via_app_data/pip_install/__pycache__/base.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/seed/embed/via_app_data/pip_install/__pycache__/copy.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/seed/embed/via_app_data/pip_install/__pycache__/symlink.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/seed/embed/via_app_data/pip_install/base.py",
+    "lib/python3.11/site-packages/virtualenv/seed/embed/via_app_data/pip_install/copy.py",
+    "lib/python3.11/site-packages/virtualenv/seed/embed/via_app_data/pip_install/symlink.py",
+    "lib/python3.11/site-packages/virtualenv/seed/embed/via_app_data/via_app_data.py",
+    "lib/python3.11/site-packages/virtualenv/seed/seeder.py",
+    "lib/python3.11/site-packages/virtualenv/seed/wheels/__init__.py",
+    "lib/python3.11/site-packages/virtualenv/seed/wheels/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/seed/wheels/__pycache__/acquire.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/seed/wheels/__pycache__/bundle.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/seed/wheels/__pycache__/periodic_update.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/seed/wheels/__pycache__/util.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/seed/wheels/acquire.py",
+    "lib/python3.11/site-packages/virtualenv/seed/wheels/bundle.py",
+    "lib/python3.11/site-packages/virtualenv/seed/wheels/embed/__init__.py",
+    "lib/python3.11/site-packages/virtualenv/seed/wheels/embed/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/seed/wheels/embed/pip-20.3.4-py2.py3-none-any.whl",
+    "lib/python3.11/site-packages/virtualenv/seed/wheels/embed/pip-21.3.1-py3-none-any.whl",
+    "lib/python3.11/site-packages/virtualenv/seed/wheels/embed/pip-22.3.1-py3-none-any.whl",
+    "lib/python3.11/site-packages/virtualenv/seed/wheels/embed/setuptools-44.1.1-py2.py3-none-any.whl",
+    "lib/python3.11/site-packages/virtualenv/seed/wheels/embed/setuptools-50.3.2-py3-none-any.whl",
+    "lib/python3.11/site-packages/virtualenv/seed/wheels/embed/setuptools-59.6.0-py3-none-any.whl",
+    "lib/python3.11/site-packages/virtualenv/seed/wheels/embed/setuptools-65.6.3-py3-none-any.whl",
+    "lib/python3.11/site-packages/virtualenv/seed/wheels/embed/wheel-0.37.1-py2.py3-none-any.whl",
+    "lib/python3.11/site-packages/virtualenv/seed/wheels/embed/wheel-0.38.4-py3-none-any.whl",
+    "lib/python3.11/site-packages/virtualenv/seed/wheels/periodic_update.py",
+    "lib/python3.11/site-packages/virtualenv/seed/wheels/util.py",
+    "lib/python3.11/site-packages/virtualenv/util/__init__.py",
+    "lib/python3.11/site-packages/virtualenv/util/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/util/__pycache__/error.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/util/__pycache__/lock.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/util/__pycache__/zipapp.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/util/error.py",
+    "lib/python3.11/site-packages/virtualenv/util/lock.py",
+    "lib/python3.11/site-packages/virtualenv/util/path/__init__.py",
+    "lib/python3.11/site-packages/virtualenv/util/path/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/util/path/__pycache__/_permission.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/util/path/__pycache__/_sync.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/util/path/__pycache__/_win.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/util/path/_permission.py",
+    "lib/python3.11/site-packages/virtualenv/util/path/_sync.py",
+    "lib/python3.11/site-packages/virtualenv/util/path/_win.py",
+    "lib/python3.11/site-packages/virtualenv/util/subprocess/__init__.py",
+    "lib/python3.11/site-packages/virtualenv/util/subprocess/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/virtualenv/util/zipapp.py",
+    "lib/python3.11/site-packages/virtualenv/version.py"
+  ],
+  "fn": "virtualenv-20.17.1-py311h06a4308_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/opt/conda/pkgs/virtualenv-20.17.1-py311h06a4308_0",
+    "type": 1
+  },
+  "md5": "08b08f00e6cfceb8161ab037111f26fe",
+  "name": "virtualenv",
+  "package_tarball_full_path": "/opt/conda/pkgs/virtualenv-20.17.1-py311h06a4308_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/virtualenv",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/croot/virtualenv_1679038251432/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "210cecf0f5e43234324d9b80b146a1c3ba7e2618e88a983532269131f8f5d80e",
+        "sha256_in_prefix": "86c0be631ea7fb8e84a6c6a8ce21978103373b0c5a78b5a6613d34e1de8bc553",
+        "size_in_bytes": 492
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv-20.17.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv-20.17.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "5c15919378c5b2aaab7b19cea70d8cdc75f76879e32454e4c0399f8b71d171e9",
+        "sha256_in_prefix": "5c15919378c5b2aaab7b19cea70d8cdc75f76879e32454e4c0399f8b71d171e9",
+        "size_in_bytes": 1074
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv-20.17.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "49e19f6185f1cd2fa24c6a45f641a3472d1c638113383595bada9c0b4c616448",
+        "sha256_in_prefix": "49e19f6185f1cd2fa24c6a45f641a3472d1c638113383595bada9c0b4c616448",
+        "size_in_bytes": 4140
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv-20.17.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "dff60c520c1697a691493b0ab3c2c81963081392bba939fdc08810d59414adb4",
+        "sha256_in_prefix": "dff60c520c1697a691493b0ab3c2c81963081392bba939fdc08810d59414adb4",
+        "size_in_bytes": 18375
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv-20.17.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv-20.17.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+        "sha256_in_prefix": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv-20.17.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "8bb15963467c2393ce50f7d3c91ebc46d04749a672ee287441dddb72276534d6",
+        "sha256_in_prefix": "8bb15963467c2393ce50f7d3c91ebc46d04749a672ee287441dddb72276534d6",
+        "size_in_bytes": 70
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv-20.17.1.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "9bc635b7c98af7c8a80c01da3919ec134ec3581ca6a01e954fb0055c46ac0233",
+        "sha256_in_prefix": "9bc635b7c98af7c8a80c01da3919ec134ec3581ca6a01e954fb0055c46ac0233",
+        "size_in_bytes": 1731
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv-20.17.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "255f8b5650bc61e230d43822608d21128b7bb60172e4859d2957121bb372cda2",
+        "sha256_in_prefix": "255f8b5650bc61e230d43822608d21128b7bb60172e4859d2957121bb372cda2",
+        "size_in_bytes": 11
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv-20.17.1.dist-info/zip-safe",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "ea19f68ccf1665b94d94891e6b7b43fd61331f2e2271b0257718aabc6a89b06f",
+        "sha256_in_prefix": "ea19f68ccf1665b94d94891e6b7b43fd61331f2e2271b0257718aabc6a89b06f",
+        "size_in_bytes": 147
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "cec3809d301d01f0c0d10da66861567a43f26ff88577dced65b2fa6cc7cbbd9e",
+        "sha256_in_prefix": "cec3809d301d01f0c0d10da66861567a43f26ff88577dced65b2fa6cc7cbbd9e",
+        "size_in_bytes": 2529
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "aa02838c4a32f75f267ba4f98e07c59630afa771392d2083c65972e31b6ff330",
+        "sha256_in_prefix": "aa02838c4a32f75f267ba4f98e07c59630afa771392d2083c65972e31b6ff330",
+        "size_in_bytes": 349
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/__pycache__/__main__.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "d377ac6b0ee51231fcf68d17525598f788aafae73b943e7a857ce02432238812",
+        "sha256_in_prefix": "d377ac6b0ee51231fcf68d17525598f788aafae73b943e7a857ce02432238812",
+        "size_in_bytes": 5377
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/__pycache__/info.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "715d51ea5e926a2863c1ffcd9173e70112941a4eb84957777df3e70cd0bb7443",
+        "sha256_in_prefix": "715d51ea5e926a2863c1ffcd9173e70112941a4eb84957777df3e70cd0bb7443",
+        "size_in_bytes": 3133
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/__pycache__/report.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "f64392e7444d3aa0bc1f59dd42a783a3d707c38567129b96fbc1a6ebe370d821",
+        "sha256_in_prefix": "f64392e7444d3aa0bc1f59dd42a783a3d707c38567129b96fbc1a6ebe370d821",
+        "size_in_bytes": 2403
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/__pycache__/version.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "b2571a200d00af5313a70ffd0c8d7131be395b4218e77b8adc3bb72b89697363",
+        "sha256_in_prefix": "b2571a200d00af5313a70ffd0c8d7131be395b4218e77b8adc3bb72b89697363",
+        "size_in_bytes": 253
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/activation/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "19454eee3102fe92f3745848de15ee5894147298f8916b09f0216e5a4a7861f9",
+        "sha256_in_prefix": "19454eee3102fe92f3745848de15ee5894147298f8916b09f0216e5a4a7861f9",
+        "size_in_bytes": 428
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/activation/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "64a2cf1a7ea5697230b34d9cbab87a6d75f9950c2d3194489c0d1265d525bc97",
+        "sha256_in_prefix": "64a2cf1a7ea5697230b34d9cbab87a6d75f9950c2d3194489c0d1265d525bc97",
+        "size_in_bytes": 672
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/activation/__pycache__/activator.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "f0a46b1cd54cd1ca2ebd487dba8725c57a68dc64f73812210c94be709c1c2c20",
+        "sha256_in_prefix": "f0a46b1cd54cd1ca2ebd487dba8725c57a68dc64f73812210c94be709c1c2c20",
+        "size_in_bytes": 2345
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/activation/__pycache__/via_template.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "c1f198cc339ae66e3593a30736b06ef991199ab998776c09197f71aa527000d9",
+        "sha256_in_prefix": "c1f198cc339ae66e3593a30736b06ef991199ab998776c09197f71aa527000d9",
+        "size_in_bytes": 4174
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/activation/activator.py",
+        "path_type": "hardlink",
+        "sha256": "1f7e6e0e1430254813cb1dea289950c818df8b1d8b38c3fa96910131d67cab8b",
+        "sha256_in_prefix": "1f7e6e0e1430254813cb1dea289950c818df8b1d8b38c3fa96910131d67cab8b",
+        "size_in_bytes": 1382
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/activation/bash/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "ff611390b41356e80a8ab3f553def93fb2fc69c9498347bc8ce2f4f718360384",
+        "sha256_in_prefix": "ff611390b41356e80a8ab3f553def93fb2fc69c9498347bc8ce2f4f718360384",
+        "size_in_bytes": 278
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/activation/bash/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "14d87b8904c4188fa7017aac02fde77a7ad75dc6d8cbd34d9e3100e427835078",
+        "sha256_in_prefix": "14d87b8904c4188fa7017aac02fde77a7ad75dc6d8cbd34d9e3100e427835078",
+        "size_in_bytes": 951
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/activation/bash/activate.sh",
+        "path_type": "hardlink",
+        "sha256": "f0d9db040d15a685046733f4f6a3b85a9ff799f22afe3ffb357446bc91c142ad",
+        "sha256_in_prefix": "f0d9db040d15a685046733f4f6a3b85a9ff799f22afe3ffb357446bc91c142ad",
+        "size_in_bytes": 2179
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/activation/batch/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "9fbd593f2107efad3d5e2780e22440144b5fec2c13504d85a009e88fd73bd38e",
+        "sha256_in_prefix": "9fbd593f2107efad3d5e2780e22440144b5fec2c13504d85a009e88fd73bd38e",
+        "size_in_bytes": 636
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/activation/batch/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "138839495fcdac84595d9b2c7d157696648445bbb2f36d2ea1eabbf6a672b7d7",
+        "sha256_in_prefix": "138839495fcdac84595d9b2c7d157696648445bbb2f36d2ea1eabbf6a672b7d7",
+        "size_in_bytes": 1588
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/activation/batch/activate.bat",
+        "path_type": "hardlink",
+        "sha256": "cdcd3890b90b85d06facd60a33719fef3673307e0ab2121d7cfbcca5997b05c2",
+        "sha256_in_prefix": "cdcd3890b90b85d06facd60a33719fef3673307e0ab2121d7cfbcca5997b05c2",
+        "size_in_bytes": 1032
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/activation/batch/deactivate.bat",
+        "path_type": "hardlink",
+        "sha256": "b10d5b66d817daf1efa4032f071356b17df39c050ce2b6b951a859e5339a26c2",
+        "sha256_in_prefix": "b10d5b66d817daf1efa4032f071356b17df39c050ce2b6b951a859e5339a26c2",
+        "size_in_bytes": 511
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/activation/batch/pydoc.bat",
+        "path_type": "hardlink",
+        "sha256": "a55bb19fc9a7f4ffd1774df8f5f881122c08b8cbdf25049f809d9d963513d9f0",
+        "sha256_in_prefix": "a55bb19fc9a7f4ffd1774df8f5f881122c08b8cbdf25049f809d9d963513d9f0",
+        "size_in_bytes": 24
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/activation/cshell/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "ca5d94b7f2d11e4b09c2d89feb0fa2f59a5b9a535a36fba1cd4ad0c3aa310b74",
+        "sha256_in_prefix": "ca5d94b7f2d11e4b09c2d89feb0fa2f59a5b9a535a36fba1cd4ad0c3aa310b74",
+        "size_in_bytes": 280
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/activation/cshell/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "08dfd192ea7da6a4e06e9403e15c3b66b19f0b56dd06faebfb7f6a565e7f0ee5",
+        "sha256_in_prefix": "08dfd192ea7da6a4e06e9403e15c3b66b19f0b56dd06faebfb7f6a565e7f0ee5",
+        "size_in_bytes": 924
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/activation/cshell/activate.csh",
+        "path_type": "hardlink",
+        "sha256": "c26ff49fba3cdd15d24d426c59cd8f3d5df7621f4669df0025022e46f2fa1188",
+        "sha256_in_prefix": "c26ff49fba3cdd15d24d426c59cd8f3d5df7621f4669df0025022e46f2fa1188",
+        "size_in_bytes": 1471
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/activation/fish/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e62d11d07821ae1766d48d4476dbb5ebb05c809aebef45a38eff432d09c31dce",
+        "sha256_in_prefix": "e62d11d07821ae1766d48d4476dbb5ebb05c809aebef45a38eff432d09c31dce",
+        "size_in_bytes": 185
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/activation/fish/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "c402f144fb344f412c78186fe3cf11a8e355ce5319fd477a99ac0e42b46fa63a",
+        "sha256_in_prefix": "c402f144fb344f412c78186fe3cf11a8e355ce5319fd477a99ac0e42b46fa63a",
+        "size_in_bytes": 694
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/activation/fish/activate.fish",
+        "path_type": "hardlink",
+        "sha256": "16426933ca6783cbfd4a4df218d242706cd428000c1751f3d1d62bb24badd33d",
+        "sha256_in_prefix": "16426933ca6783cbfd4a4df218d242706cd428000c1751f3d1d62bb24badd33d",
+        "size_in_bytes": 3056
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/activation/nushell/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "9e420ec0fbd18aba0745b86482857c1e458e71270ed152f0fb1b6baf569180a7",
+        "sha256_in_prefix": "9e420ec0fbd18aba0745b86482857c1e458e71270ed152f0fb1b6baf569180a7",
+        "size_in_bytes": 545
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/activation/nushell/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "ae5fec46746bb02c075e602dd9e804e74ec89cbd875cce7ba56c1437488a922c",
+        "sha256_in_prefix": "ae5fec46746bb02c075e602dd9e804e74ec89cbd875cce7ba56c1437488a922c",
+        "size_in_bytes": 1245
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/activation/nushell/activate.nu",
+        "path_type": "hardlink",
+        "sha256": "73beb626c171101a4b8fb416465627163ed37a8bdd65956c2e293eae873581ba",
+        "sha256_in_prefix": "73beb626c171101a4b8fb416465627163ed37a8bdd65956c2e293eae873581ba",
+        "size_in_bytes": 3367
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/activation/powershell/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "bb9b57ce1e14edbb19dc4bf8239b2269ce57e568b0a7be25ad2b33776f442076",
+        "sha256_in_prefix": "bb9b57ce1e14edbb19dc4bf8239b2269ce57e568b0a7be25ad2b33776f442076",
+        "size_in_bytes": 196
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/activation/powershell/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "d32927174f45073c1d3c557bfae5170bac7fd732c49ba110e61b6e7cdde73a4c",
+        "sha256_in_prefix": "d32927174f45073c1d3c557bfae5170bac7fd732c49ba110e61b6e7cdde73a4c",
+        "size_in_bytes": 711
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/activation/powershell/activate.ps1",
+        "path_type": "hardlink",
+        "sha256": "7e2b411b663278a4df9119fad828e87036ff3cb8eb82f8b6166a6e064142701c",
+        "sha256_in_prefix": "7e2b411b663278a4df9119fad828e87036ff3cb8eb82f8b6166a6e064142701c",
+        "size_in_bytes": 1810
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/activation/python/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "28c04f1e4ac0e841d64fb30ade46a6d16a69731174d4ae4fc035371108657377",
+        "sha256_in_prefix": "28c04f1e4ac0e841d64fb30ade46a6d16a69731174d4ae4fc035371108657377",
+        "size_in_bytes": 1168
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/activation/python/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "1bd23aade60cf49d39b67bbcdd191e5305e3592cb96defc25606b6cd1454d83f",
+        "sha256_in_prefix": "1bd23aade60cf49d39b67bbcdd191e5305e3592cb96defc25606b6cd1454d83f",
+        "size_in_bytes": 2689
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/activation/python/__pycache__/activate_this.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "aa982a49055afd4ee9edca6698a248071be5cb1339f68b25e93b3e42eeb9cc34",
+        "sha256_in_prefix": "aa982a49055afd4ee9edca6698a248071be5cb1339f68b25e93b3e42eeb9cc34",
+        "size_in_bytes": 1989
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/activation/python/activate_this.py",
+        "path_type": "hardlink",
+        "sha256": "c14b7a4159be464f78bbe10d3e7db0ccac7469d771da8ac07bab4a40d72acdbc",
+        "sha256_in_prefix": "c14b7a4159be464f78bbe10d3e7db0ccac7469d771da8ac07bab4a40d72acdbc",
+        "size_in_bytes": 1184
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/activation/via_template.py",
+        "path_type": "hardlink",
+        "sha256": "1617697e778bab5d15b5ad0e742d9bc9ca1f7f991590c144961475752f9ee92b",
+        "sha256_in_prefix": "1617697e778bab5d15b5ad0e742d9bc9ca1f7f991590c144961475752f9ee92b",
+        "size_in_bytes": 2496
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/app_data/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "ba59ca7195f03a21a22c59e4e86c0fbe9576b096130f2d70c1fd6fe710d00878",
+        "sha256_in_prefix": "ba59ca7195f03a21a22c59e4e86c0fbe9576b096130f2d70c1fd6fe710d00878",
+        "size_in_bytes": 1412
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/app_data/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "a7b42c49572892390c6ce2b9796c47ed378f5fc523b61de6a199e82ccfe48a72",
+        "sha256_in_prefix": "a7b42c49572892390c6ce2b9796c47ed378f5fc523b61de6a199e82ccfe48a72",
+        "size_in_bytes": 2386
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/app_data/__pycache__/base.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "355722ac14007c29052d4e8dce8438ea4ffaba0492170405bf2cb97ec057b8c3",
+        "sha256_in_prefix": "355722ac14007c29052d4e8dce8438ea4ffaba0492170405bf2cb97ec057b8c3",
+        "size_in_bytes": 4532
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/app_data/__pycache__/na.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "5aa891e0b0182de9dbd39b0dff850817d1e98bba812df0868a8c1ebd1ee91f69",
+        "sha256_in_prefix": "5aa891e0b0182de9dbd39b0dff850817d1e98bba812df0868a8c1ebd1ee91f69",
+        "size_in_bytes": 3527
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/app_data/__pycache__/read_only.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "f23cfae47b72977b134a853084d93387f12107948bee3345e3e6b2eb8e969629",
+        "sha256_in_prefix": "f23cfae47b72977b134a853084d93387f12107948bee3345e3e6b2eb8e969629",
+        "size_in_bytes": 2625
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/app_data/__pycache__/via_disk_folder.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "8cdb830892d1452a6e32d021455d0c0650a5611e44f1f6ddc9bc6905e29112c9",
+        "sha256_in_prefix": "8cdb830892d1452a6e32d021455d0c0650a5611e44f1f6ddc9bc6905e29112c9",
+        "size_in_bytes": 11493
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/app_data/__pycache__/via_tempdir.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "c8f1d1793ca75c1354316520dde12b4bde2beea74b7fbdf2817a736b54512c94",
+        "sha256_in_prefix": "c8f1d1793ca75c1354316520dde12b4bde2beea74b7fbdf2817a736b54512c94",
+        "size_in_bytes": 1954
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/app_data/base.py",
+        "path_type": "hardlink",
+        "sha256": "0f2ab9536fd770c2782bb165aa355b5ef9c7b89e2696477dc83c660e3387542d",
+        "sha256_in_prefix": "0f2ab9536fd770c2782bb165aa355b5ef9c7b89e2696477dc83c660e3387542d",
+        "size_in_bytes": 2161
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/app_data/na.py",
+        "path_type": "hardlink",
+        "sha256": "3c880678730ae6b2bc13d493ae9697563e5d64bc715711d83e6cc3815ee302fa",
+        "sha256_in_prefix": "3c880678730ae6b2bc13d493ae9697563e5d64bc715711d83e6cc3815ee302fa",
+        "size_in_bytes": 1457
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/app_data/read_only.py",
+        "path_type": "hardlink",
+        "sha256": "d04b3f9e3bbaaaf9865a3356d2cfee74f942ec56b06a3a8245a3475a7f2f4a2f",
+        "sha256_in_prefix": "d04b3f9e3bbaaaf9865a3356d2cfee74f942ec56b06a3a8245a3475a7f2f4a2f",
+        "size_in_bytes": 1031
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/app_data/via_disk_folder.py",
+        "path_type": "hardlink",
+        "sha256": "777f1135d876ca6f449dabbed611efc3a498dc52ef1c724fffce89369624fc96",
+        "sha256_in_prefix": "777f1135d876ca6f449dabbed611efc3a498dc52ef1c724fffce89369624fc96",
+        "size_in_bytes": 5411
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/app_data/via_tempdir.py",
+        "path_type": "hardlink",
+        "sha256": "48fb33a6811c0c27cbe358caacdd86001b75b4f3226562bc1f2fdf51046edee2",
+        "sha256_in_prefix": "48fb33a6811c0c27cbe358caacdd86001b75b4f3226562bc1f2fdf51046edee2",
+        "size_in_bytes": 744
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/config/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/config/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "7a8a4403069bb284331d31dee449d88752f03f1821cadb7eda4f9dc223065762",
+        "sha256_in_prefix": "7a8a4403069bb284331d31dee449d88752f03f1821cadb7eda4f9dc223065762",
+        "size_in_bytes": 167
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/config/__pycache__/convert.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "9e71e338545e3921410b53531d2226d52321da378020222d05a2e97391304c49",
+        "sha256_in_prefix": "9e71e338545e3921410b53531d2226d52321da378020222d05a2e97391304c49",
+        "size_in_bytes": 5300
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/config/__pycache__/env_var.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "3b9658abff220c775dca20a8fabad704444df5d8994ff56fb648a4be3655fbfc",
+        "sha256_in_prefix": "3b9658abff220c775dca20a8fabad704444df5d8994ff56fb648a4be3655fbfc",
+        "size_in_bytes": 1007
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/config/__pycache__/ini.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "e3735f4c21a6ddf1bd38e15ab1aa840de470e5b318225f13dea6e3c579038322",
+        "sha256_in_prefix": "e3735f4c21a6ddf1bd38e15ab1aa840de470e5b318225f13dea6e3c579038322",
+        "size_in_bytes": 4289
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/config/cli/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/config/cli/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "98b0910044534f76b15e503fbfa497da3399fc40d8956919a26b9b884c72b6f0",
+        "sha256_in_prefix": "98b0910044534f76b15e503fbfa497da3399fc40d8956919a26b9b884c72b6f0",
+        "size_in_bytes": 171
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/config/cli/__pycache__/parser.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "5049402f2463ab10d8065e12413951b5bc230b4ffc24100f28aeb2c6ee826a08",
+        "sha256_in_prefix": "5049402f2463ab10d8065e12413951b5bc230b4ffc24100f28aeb2c6ee826a08",
+        "size_in_bytes": 8991
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/config/cli/parser.py",
+        "path_type": "hardlink",
+        "sha256": "a1f8d70f0f06bce586ab1907d1dd5904d9eb20830cee801772adad0229eb079b",
+        "sha256_in_prefix": "a1f8d70f0f06bce586ab1907d1dd5904d9eb20830cee801772adad0229eb079b",
+        "size_in_bytes": 4457
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/config/convert.py",
+        "path_type": "hardlink",
+        "sha256": "6d7c48ed05ec6f9112ac631ba2937afd3754bc92227a2044a2ef0c937aa3258c",
+        "sha256_in_prefix": "6d7c48ed05ec6f9112ac631ba2937afd3754bc92227a2044a2ef0c937aa3258c",
+        "size_in_bytes": 2628
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/config/env_var.py",
+        "path_type": "hardlink",
+        "sha256": "5ac72b9d3c90bfeefa59cb17d6b8eef71d70504c308b71473db996b19b5bff3f",
+        "sha256_in_prefix": "5ac72b9d3c90bfeefa59cb17d6b8eef71d70504c308b71473db996b19b5bff3f",
+        "size_in_bytes": 680
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/config/ini.py",
+        "path_type": "hardlink",
+        "sha256": "bf32798aa136aeab6ed867f4e8340dde641d019316d370a0d25b7ba7f445278f",
+        "sha256_in_prefix": "bf32798aa136aeab6ed867f4e8340dde641d019316d370a0d25b7ba7f445278f",
+        "size_in_bytes": 2490
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/create/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/create/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "c517ab94ddc35a4c1adf6ee53d71e00f28e466b3fa5808ee3b15fce52a41bf29",
+        "sha256_in_prefix": "c517ab94ddc35a4c1adf6ee53d71e00f28e466b3fa5808ee3b15fce52a41bf29",
+        "size_in_bytes": 167
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/create/__pycache__/creator.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "82db29656967a78bcf6d4ab989fcd2b842e71bc94fbd93d324d6daf5cc2fdf58",
+        "sha256_in_prefix": "82db29656967a78bcf6d4ab989fcd2b842e71bc94fbd93d324d6daf5cc2fdf58",
+        "size_in_bytes": 12759
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/create/__pycache__/debug.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "4541519b41c52e464555542ee385e729ecd5c7eaabce0177868779d118780edd",
+        "sha256_in_prefix": "4541519b41c52e464555542ee385e729ecd5c7eaabce0177868779d118780edd",
+        "size_in_bytes": 4934
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/create/__pycache__/describe.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "373c109e2b0a8f4ccbc8849bf4249e8b4565f5a9a42849734708178b545ea2e8",
+        "sha256_in_prefix": "373c109e2b0a8f4ccbc8849bf4249e8b4565f5a9a42849734708178b545ea2e8",
+        "size_in_bytes": 7647
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/create/__pycache__/pyenv_cfg.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "31e5a9aac29adedfdb330ea0fe32a382239c7c105bee8667cdb5c40aa4c5cffc",
+        "sha256_in_prefix": "31e5a9aac29adedfdb330ea0fe32a382239c7c105bee8667cdb5c40aa4c5cffc",
+        "size_in_bytes": 3918
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/create/creator.py",
+        "path_type": "hardlink",
+        "sha256": "8d0302323f4da54f0e4aed79d0fdf1db3d38ad7dd93c08706041ad41442f2a4a",
+        "sha256_in_prefix": "8d0302323f4da54f0e4aed79d0fdf1db3d38ad7dd93c08706041ad41442f2a4a",
+        "size_in_bytes": 8445
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/create/debug.py",
+        "path_type": "hardlink",
+        "sha256": "7aaaa02e8ec484c3252a2225ecf855103a21d526bc97d56f9bfa49083432666c",
+        "sha256_in_prefix": "7aaaa02e8ec484c3252a2225ecf855103a21d526bc97d56f9bfa49083432666c",
+        "size_in_bytes": 3356
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/create/describe.py",
+        "path_type": "hardlink",
+        "sha256": "0e0d67ff087fef61ab3f44b1ce63ae0916d05b46279629dc1c130ac5739a0fdb",
+        "sha256_in_prefix": "0e0d67ff087fef61ab3f44b1ce63ae0916d05b46279629dc1c130ac5739a0fdb",
+        "size_in_bytes": 3358
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/create/pyenv_cfg.py",
+        "path_type": "hardlink",
+        "sha256": "dfe752010f2c2bceb2aa90084d6a9778a9f659b33d032cc1991e071bd4ef8aac",
+        "sha256_in_prefix": "dfe752010f2c2bceb2aa90084d6a9778a9f659b33d032cc1991e071bd4ef8aac",
+        "size_in_bytes": 1600
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/create/via_global_ref/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/create/via_global_ref/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "26e5802a1ba3d2f0967cce380560c026baa639b6464cfdbf2f8d683bb9ddc225",
+        "sha256_in_prefix": "26e5802a1ba3d2f0967cce380560c026baa639b6464cfdbf2f8d683bb9ddc225",
+        "size_in_bytes": 182
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/create/via_global_ref/__pycache__/_virtualenv.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "2d2a79bdf4ec5fcb18b6751d9e5d38376600c1e383f929d5bc2106b458503c05",
+        "sha256_in_prefix": "2d2a79bdf4ec5fcb18b6751d9e5d38376600c1e383f929d5bc2106b458503c05",
+        "size_in_bytes": 6954
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/create/via_global_ref/__pycache__/api.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "195f92998b8fb05d3bad060970c06f5e0e7ece04764d4a73fab7a8a6abc14ee5",
+        "sha256_in_prefix": "195f92998b8fb05d3bad060970c06f5e0e7ece04764d4a73fab7a8a6abc14ee5",
+        "size_in_bytes": 7170
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/create/via_global_ref/__pycache__/store.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "5000c3fb106a4f53f82510c98a2097565951de19a56312b1c3f684eae1abc37c",
+        "sha256_in_prefix": "5000c3fb106a4f53f82510c98a2097565951de19a56312b1c3f684eae1abc37c",
+        "size_in_bytes": 1207
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/create/via_global_ref/__pycache__/venv.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "abd0d623261c3fb0b112d51d2f35260d7b90ff218ad0f126f72b79f32762da1c",
+        "sha256_in_prefix": "abd0d623261c3fb0b112d51d2f35260d7b90ff218ad0f126f72b79f32762da1c",
+        "size_in_bytes": 6496
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/create/via_global_ref/_virtualenv.py",
+        "path_type": "hardlink",
+        "sha256": "c9199315871b11b12df226f890a38e66e63191e1adbfb11a66e6861151b33fca",
+        "sha256_in_prefix": "c9199315871b11b12df226f890a38e66e63191e1adbfb11a66e6861151b33fca",
+        "size_in_bytes": 5640
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/create/via_global_ref/api.py",
+        "path_type": "hardlink",
+        "sha256": "f17e7daf6cb7a9d79e63a05271bdfe3dee8ea754d556b1567efe629ece06cbf5",
+        "sha256_in_prefix": "f17e7daf6cb7a9d79e63a05271bdfe3dee8ea754d556b1567efe629ece06cbf5",
+        "size_in_bytes": 4128
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/create/via_global_ref/builtin/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/create/via_global_ref/builtin/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "22b0e2ac7a47de75fc5f1970c87c07008b5479054ab7d61b137bf28bac9aedf6",
+        "sha256_in_prefix": "22b0e2ac7a47de75fc5f1970c87c07008b5479054ab7d61b137bf28bac9aedf6",
+        "size_in_bytes": 190
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/create/via_global_ref/builtin/__pycache__/builtin_way.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "e6ca33394ee506f3762c0ac0e63d1516e3d24251f38133e0a185f07eba2b2e81",
+        "sha256_in_prefix": "e6ca33394ee506f3762c0ac0e63d1516e3d24251f38133e0a185f07eba2b2e81",
+        "size_in_bytes": 1133
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/create/via_global_ref/builtin/__pycache__/ref.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "c09af157834f810cd92978652d8cdd18b259f74a2734bd7a0f1d3de535b86ac3",
+        "sha256_in_prefix": "c09af157834f810cd92978652d8cdd18b259f74a2734bd7a0f1d3de535b86ac3",
+        "size_in_bytes": 10356
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/create/via_global_ref/builtin/__pycache__/via_global_self_do.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "005de556b8d01a011128d25e07a9f1c67b5a6591d4b014242fc1d52731531e1d",
+        "sha256_in_prefix": "005de556b8d01a011128d25e07a9f1c67b5a6591d4b014242fc1d52731531e1d",
+        "size_in_bytes": 7847
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/create/via_global_ref/builtin/builtin_way.py",
+        "path_type": "hardlink",
+        "sha256": "30884421582279498ecb3df91d73a50cd8ae439cb6c8b9448d3eee04404257ac",
+        "sha256_in_prefix": "30884421582279498ecb3df91d73a50cd8ae439cb6c8b9448d3eee04404257ac",
+        "size_in_bytes": 493
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/create/via_global_ref/builtin/cpython/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/create/via_global_ref/builtin/cpython/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "dc59697cbb768dd2e5591e20a206d621134ad4e4a597058d8ffeb047122556be",
+        "sha256_in_prefix": "dc59697cbb768dd2e5591e20a206d621134ad4e4a597058d8ffeb047122556be",
+        "size_in_bytes": 198
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/create/via_global_ref/builtin/cpython/__pycache__/common.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "2207ff0c1b6251ac64cce0c7e1586114844947ceeb517da7b2d9c700dab02bec",
+        "sha256_in_prefix": "2207ff0c1b6251ac64cce0c7e1586114844947ceeb517da7b2d9c700dab02bec",
+        "size_in_bytes": 4730
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/create/via_global_ref/builtin/cpython/__pycache__/cpython2.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "5df3f7bbd7cf164add719c78c695f880d5b4ae55f2c6d19a48147aa2933c875d",
+        "sha256_in_prefix": "5df3f7bbd7cf164add719c78c695f880d5b4ae55f2c6d19a48147aa2933c875d",
+        "size_in_bytes": 7426
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/create/via_global_ref/builtin/cpython/__pycache__/cpython3.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "2698362a3bc82503c10d537648beb029ca92df177c30732d4c6c38bd57864f9f",
+        "sha256_in_prefix": "2698362a3bc82503c10d537648beb029ca92df177c30732d4c6c38bd57864f9f",
+        "size_in_bytes": 7883
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/create/via_global_ref/builtin/cpython/__pycache__/mac_os.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "fc6fc334ec82ece98ca5f8207b488bb37065eeeed4c4730478a0b3a672c44e5a",
+        "sha256_in_prefix": "fc6fc334ec82ece98ca5f8207b488bb37065eeeed4c4730478a0b3a672c44e5a",
+        "size_in_bytes": 23342
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/create/via_global_ref/builtin/cpython/common.py",
+        "path_type": "hardlink",
+        "sha256": "45bf92ed9248cc84fe33454566706ffe3d513746410f5d16c1ac89c11169a6ac",
+        "sha256_in_prefix": "45bf92ed9248cc84fe33454566706ffe3d513746410f5d16c1ac89c11169a6ac",
+        "size_in_bytes": 2323
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/create/via_global_ref/builtin/cpython/cpython2.py",
+        "path_type": "hardlink",
+        "sha256": "0050afdaf07ac1249816adb0a14f518eb36d93bfce2df7a5739387e7bac12c6a",
+        "sha256_in_prefix": "0050afdaf07ac1249816adb0a14f518eb36d93bfce2df7a5739387e7bac12c6a",
+        "size_in_bytes": 3549
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/create/via_global_ref/builtin/cpython/cpython3.py",
+        "path_type": "hardlink",
+        "sha256": "64a4f4887221dff6d2d30f7f9d9d07b17e5878b9f9b02d9aefaca3edc5474f29",
+        "sha256_in_prefix": "64a4f4887221dff6d2d30f7f9d9d07b17e5878b9f9b02d9aefaca3edc5474f29",
+        "size_in_bytes": 4612
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/create/via_global_ref/builtin/cpython/mac_os.py",
+        "path_type": "hardlink",
+        "sha256": "0b75be99972b7d30761fddcbcc60bf95113e33bcf373512a04e82ceccb0f364b",
+        "sha256_in_prefix": "0b75be99972b7d30761fddcbcc60bf95113e33bcf373512a04e82ceccb0f364b",
+        "size_in_bytes": 14433
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/create/via_global_ref/builtin/pypy/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/create/via_global_ref/builtin/pypy/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "c5e334812a3a228007bfe9ed0f77e026a7f8d5bb8218e0ff5d13acd666afe88d",
+        "sha256_in_prefix": "c5e334812a3a228007bfe9ed0f77e026a7f8d5bb8218e0ff5d13acd666afe88d",
+        "size_in_bytes": 195
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/create/via_global_ref/builtin/pypy/__pycache__/common.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "98651a1568010d4908864e2e304f1d39e8f83362c571e8ade608ebacc4bce30d",
+        "sha256_in_prefix": "98651a1568010d4908864e2e304f1d39e8f83362c571e8ade608ebacc4bce30d",
+        "size_in_bytes": 4057
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/create/via_global_ref/builtin/pypy/__pycache__/pypy2.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "1ceb3a543991f2e88ccf50bc0a3d3ac0a8b6f2e679e75991074d183753fee624",
+        "sha256_in_prefix": "1ceb3a543991f2e88ccf50bc0a3d3ac0a8b6f2e679e75991074d183753fee624",
+        "size_in_bytes": 7773
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/create/via_global_ref/builtin/pypy/__pycache__/pypy3.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "00636e0a7f501d0918bad1c4e84ccf3932c2ce5a1455c6af77a7db16cffb4b11",
+        "sha256_in_prefix": "00636e0a7f501d0918bad1c4e84ccf3932c2ce5a1455c6af77a7db16cffb4b11",
+        "size_in_bytes": 3949
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/create/via_global_ref/builtin/pypy/common.py",
+        "path_type": "hardlink",
+        "sha256": "0eb8562a69661c3e2cdcdbd0895aef439783b87926881b4cd0b0a579de096fa6",
+        "sha256_in_prefix": "0eb8562a69661c3e2cdcdbd0895aef439783b87926881b4cd0b0a579de096fa6",
+        "size_in_bytes": 1747
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/create/via_global_ref/builtin/pypy/pypy2.py",
+        "path_type": "hardlink",
+        "sha256": "ffe1bda2d489c25913b7c6ec7a9a2891ef5c6d43bd35c093872533bb9f0c7163",
+        "sha256_in_prefix": "ffe1bda2d489c25913b7c6ec7a9a2891ef5c6d43bd35c093872533bb9f0c7163",
+        "size_in_bytes": 3546
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/create/via_global_ref/builtin/pypy/pypy3.py",
+        "path_type": "hardlink",
+        "sha256": "989306d1468bf147aea3e4871a41fdfafc4e443022251cb00dbb835e8299094f",
+        "sha256_in_prefix": "989306d1468bf147aea3e4871a41fdfafc4e443022251cb00dbb835e8299094f",
+        "size_in_bytes": 2453
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/create/via_global_ref/builtin/python2/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/create/via_global_ref/builtin/python2/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "1d902bc86dbd4e6435dfaa55fef106f465b258f3cdf75bec34581dd7ff040dfa",
+        "sha256_in_prefix": "1d902bc86dbd4e6435dfaa55fef106f465b258f3cdf75bec34581dd7ff040dfa",
+        "size_in_bytes": 198
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/create/via_global_ref/builtin/python2/__pycache__/python2.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "f360325b08e8bec37d52f01d5b6b478e892e61200b9cb522dd40654d7f96cc43",
+        "sha256_in_prefix": "f360325b08e8bec37d52f01d5b6b478e892e61200b9cb522dd40654d7f96cc43",
+        "size_in_bytes": 7283
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/create/via_global_ref/builtin/python2/__pycache__/site.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "6b99e1a1e952559edd09e3b1241105f2621321a7e7633b8f27b6a0cc80d93bb4",
+        "sha256_in_prefix": "6b99e1a1e952559edd09e3b1241105f2621321a7e7633b8f27b6a0cc80d93bb4",
+        "size_in_bytes": 10027
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/create/via_global_ref/builtin/python2/python2.py",
+        "path_type": "hardlink",
+        "sha256": "0d8102dcffb1151128dfbc7ca761f41618738117cfd2493a58e82915c63a1097",
+        "sha256_in_prefix": "0d8102dcffb1151128dfbc7ca761f41618738117cfd2493a58e82915c63a1097",
+        "size_in_bytes": 4019
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/create/via_global_ref/builtin/python2/site.py",
+        "path_type": "hardlink",
+        "sha256": "e248aad1cb39eeb6ebaad141b25ecccb2181d86db38d69fed421ee1fc0bb80f4",
+        "sha256_in_prefix": "e248aad1cb39eeb6ebaad141b25ecccb2181d86db38d69fed421ee1fc0bb80f4",
+        "size_in_bytes": 6903
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/create/via_global_ref/builtin/ref.py",
+        "path_type": "hardlink",
+        "sha256": "16de54257e654109040864902e494c1dfcd874026e7f109d521aa32d5373a4a5",
+        "sha256_in_prefix": "16de54257e654109040864902e494c1dfcd874026e7f109d521aa32d5373a4a5",
+        "size_in_bytes": 5379
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/create/via_global_ref/builtin/via_global_self_do.py",
+        "path_type": "hardlink",
+        "sha256": "0f4eeba69d7f06bbf0276f1e18a6511e85efbec502e057c2c7aa29f2467e4687",
+        "sha256_in_prefix": "0f4eeba69d7f06bbf0276f1e18a6511e85efbec502e057c2c7aa29f2467e4687",
+        "size_in_bytes": 4344
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/create/via_global_ref/store.py",
+        "path_type": "hardlink",
+        "sha256": "7600419132468396dd4ed7052c88f37bf44764438038bae680033046ade83d41",
+        "sha256_in_prefix": "7600419132468396dd4ed7052c88f37bf44764438038bae680033046ade83d41",
+        "size_in_bytes": 614
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/create/via_global_ref/venv.py",
+        "path_type": "hardlink",
+        "sha256": "961ec020b99f5786f9b8524a7946c336df04d6391b660bdbe2dba5830f7d4e92",
+        "sha256_in_prefix": "961ec020b99f5786f9b8524a7946c336df04d6391b660bdbe2dba5830f7d4e92",
+        "size_in_bytes": 3447
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/discovery/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/discovery/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "76a49915e412903d103cd02ee9e64164cd6aff12fb6dacf9ffb92408bdf2b4cc",
+        "sha256_in_prefix": "76a49915e412903d103cd02ee9e64164cd6aff12fb6dacf9ffb92408bdf2b4cc",
+        "size_in_bytes": 170
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/discovery/__pycache__/builtin.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "029ccf827b166d75c14b4731121daf06e2815e69919e9f16c0c3e23fb84e3f2e",
+        "sha256_in_prefix": "029ccf827b166d75c14b4731121daf06e2815e69919e9f16c0c3e23fb84e3f2e",
+        "size_in_bytes": 9534
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/discovery/__pycache__/cached_py_info.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "9e87ea86e9d4551a949e3092fd95129c1450e5e5efb1f7f11fea7c020511a7a9",
+        "sha256_in_prefix": "9e87ea86e9d4551a949e3092fd95129c1450e5e5efb1f7f11fea7c020511a7a9",
+        "size_in_bytes": 9107
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/discovery/__pycache__/discover.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "f14fe68bd1e46d9188638c24afc35129bfde0b7e0c4707c19db16309a51b9084",
+        "sha256_in_prefix": "f14fe68bd1e46d9188638c24afc35129bfde0b7e0c4707c19db16309a51b9084",
+        "size_in_bytes": 2003
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/discovery/__pycache__/py_info.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "ecec91985be09809e37d7a2ba94c98fcc2e5b8b4d56a2e80481c5d42060ca3a6",
+        "sha256_in_prefix": "ecec91985be09809e37d7a2ba94c98fcc2e5b8b4d56a2e80481c5d42060ca3a6",
+        "size_in_bytes": 38818
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/discovery/__pycache__/py_spec.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "d94c8e81db256104ef5f259b4a4dd948ce97e3078724b0b31f583d80e1050153",
+        "sha256_in_prefix": "d94c8e81db256104ef5f259b4a4dd948ce97e3078724b0b31f583d80e1050153",
+        "size_in_bytes": 6876
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/discovery/builtin.py",
+        "path_type": "hardlink",
+        "sha256": "ed6f1af99ea116b2c9a096ec1433ac298b602b3ad5b377f43162eeff2ae9dfff",
+        "sha256_in_prefix": "ed6f1af99ea116b2c9a096ec1433ac298b602b3ad5b377f43162eeff2ae9dfff",
+        "size_in_bytes": 6138
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/discovery/cached_py_info.py",
+        "path_type": "hardlink",
+        "sha256": "23763e7c9922d041d46dec92756a8c8fb8b2a74eb411b4b81b2f390c4a1ead7b",
+        "sha256_in_prefix": "23763e7c9922d041d46dec92756a8c8fb8b2a74eb411b4b81b2f390c4a1ead7b",
+        "size_in_bytes": 6350
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/discovery/discover.py",
+        "path_type": "hardlink",
+        "sha256": "69b9dda3672a707b8a962ff8eaea456d7dc4748e616c5420c5e13f45c24df94d",
+        "sha256_in_prefix": "69b9dda3672a707b8a962ff8eaea456d7dc4748e616c5420c5e13f45c24df94d",
+        "size_in_bytes": 1151
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/discovery/py_info.py",
+        "path_type": "hardlink",
+        "sha256": "6c71da10ea0ee8bc9ce9f98b91149f7edb66b1ea846c155a00d40568e0afb6c5",
+        "sha256_in_prefix": "6c71da10ea0ee8bc9ce9f98b91149f7edb66b1ea846c155a00d40568e0afb6c5",
+        "size_in_bytes": 25968
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/discovery/py_spec.py",
+        "path_type": "hardlink",
+        "sha256": "1dc4a9f31616c61339d43987fd832b66c5408189e2e3b0238099fcceed8e41f7",
+        "sha256_in_prefix": "1dc4a9f31616c61339d43987fd832b66c5408189e2e3b0238099fcceed8e41f7",
+        "size_in_bytes": 4509
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/discovery/windows/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "5dbefecdaa431fc045f513c747131cf3b65c57aeb58d639897e5091995792ed9",
+        "sha256_in_prefix": "5dbefecdaa431fc045f513c747131cf3b65c57aeb58d639897e5091995792ed9",
+        "size_in_bytes": 1251
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/discovery/windows/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "ca749fc22659e96b0ceef8f5f9ef6ec5dd3e704e4f2735f5c85040e3c90d5eea",
+        "sha256_in_prefix": "ca749fc22659e96b0ceef8f5f9ef6ec5dd3e704e4f2735f5c85040e3c90d5eea",
+        "size_in_bytes": 2184
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/discovery/windows/__pycache__/pep514.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "7317df43412ed0fe775a44b9054c5c8f4dfadc7154ae2c73650a5ec4570080c3",
+        "sha256_in_prefix": "7317df43412ed0fe775a44b9054c5c8f4dfadc7154ae2c73650a5ec4570080c3",
+        "size_in_bytes": 9287
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/discovery/windows/pep514.py",
+        "path_type": "hardlink",
+        "sha256": "1059808fafe7426d4e02f2ec0adc1fcbeba92a6e3ba055e3e92036afc9263394",
+        "sha256_in_prefix": "1059808fafe7426d4e02f2ec0adc1fcbeba92a6e3ba055e3e92036afc9263394",
+        "size_in_bytes": 5059
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/info.py",
+        "path_type": "hardlink",
+        "sha256": "254e72679ed84f3c411a7365ca7e3b7215b2849e2111229dc624c8f727cd1a4c",
+        "sha256_in_prefix": "254e72679ed84f3c411a7365ca7e3b7215b2849e2111229dc624c8f727cd1a4c",
+        "size_in_bytes": 1796
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/report.py",
+        "path_type": "hardlink",
+        "sha256": "fbc0d4a3b030d47b74f028dd0be731869423bff7c7ce94ed562f5feae7656f3b",
+        "sha256_in_prefix": "fbc0d4a3b030d47b74f028dd0be731869423bff7c7ce94ed562f5feae7656f3b",
+        "size_in_bytes": 1321
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/run/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "0b924821f61191e4f301fd21eee991ad0af63ca7c0637868f73321ced81351ca",
+        "sha256_in_prefix": "0b924821f61191e4f301fd21eee991ad0af63ca7c0637868f73321ced81351ca",
+        "size_in_bytes": 5990
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/run/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "4105b395d6e5a201c075659d5297871452c820a07f6bf5476039f4e5b55a49da",
+        "sha256_in_prefix": "4105b395d6e5a201c075659d5297871452c820a07f6bf5476039f4e5b55a49da",
+        "size_in_bytes": 8974
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/run/__pycache__/session.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "d8d3a52b2c6c18e114c46b99b50a61c6e9a022239229dbe1ef995af96dbc142c",
+        "sha256_in_prefix": "d8d3a52b2c6c18e114c46b99b50a61c6e9a022239229dbe1ef995af96dbc142c",
+        "size_in_bytes": 5439
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/run/plugin/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/run/plugin/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "3ac9dd8d89695b65509f9945901375b0ef90dd52dd361112c6a860e940db9bc5",
+        "sha256_in_prefix": "3ac9dd8d89695b65509f9945901375b0ef90dd52dd361112c6a860e940db9bc5",
+        "size_in_bytes": 171
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/run/plugin/__pycache__/activators.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "4faa4e712ed8eb0cbf954b2212b87439682231b970a01bdee8450bb1146c5a4e",
+        "sha256_in_prefix": "4faa4e712ed8eb0cbf954b2212b87439682231b970a01bdee8450bb1146c5a4e",
+        "size_in_bytes": 5072
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/run/plugin/__pycache__/base.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "913531e799d5c55736e4b4444b66bb8c10c78b88845eaa9723aedce7412604cb",
+        "sha256_in_prefix": "913531e799d5c55736e4b4444b66bb8c10c78b88845eaa9723aedce7412604cb",
+        "size_in_bytes": 5231
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/run/plugin/__pycache__/creators.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "a6246cbc7bdd55f8ac3f27735b4d8620fd364a926bc9ebd96ee34f96d3a58d65",
+        "sha256_in_prefix": "a6246cbc7bdd55f8ac3f27735b4d8620fd364a926bc9ebd96ee34f96d3a58d65",
+        "size_in_bytes": 5816
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/run/plugin/__pycache__/discovery.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "e9c238ee989010603aaf44607f734fdcfccb2074b76132e09bffe4a64e1ea7ce",
+        "sha256_in_prefix": "e9c238ee989010603aaf44607f734fdcfccb2074b76132e09bffe4a64e1ea7ce",
+        "size_in_bytes": 2167
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/run/plugin/__pycache__/seeders.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "6fa91d0ec0ed8f5cf42205bfd574864e6b6fdd1be66704a9d5b7db69cf30d5cc",
+        "sha256_in_prefix": "6fa91d0ec0ed8f5cf42205bfd574864e6b6fdd1be66704a9d5b7db69cf30d5cc",
+        "size_in_bytes": 2290
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/run/plugin/activators.py",
+        "path_type": "hardlink",
+        "sha256": "315c10f6cd5542f89670ebf38ea7cc0e028a0d614dfda6236b687fc2629fa5c7",
+        "sha256_in_prefix": "315c10f6cd5542f89670ebf38ea7cc0e028a0d614dfda6236b687fc2629fa5c7",
+        "size_in_bytes": 2169
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/run/plugin/base.py",
+        "path_type": "hardlink",
+        "sha256": "fecdff40faef18206289ad6c2fb85701e5f189f754468b64772e42502d0870a9",
+        "sha256_in_prefix": "fecdff40faef18206289ad6c2fb85701e5f189f754468b64772e42502d0870a9",
+        "size_in_bytes": 2267
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/run/plugin/creators.py",
+        "path_type": "hardlink",
+        "sha256": "07fda558a38c8a3ed6ad2061db6e69c5bc6f7e99c879aa53fe4d82d0778d6cca",
+        "sha256_in_prefix": "07fda558a38c8a3ed6ad2061db6e69c5bc6f7e99c879aa53fe4d82d0778d6cca",
+        "size_in_bytes": 3369
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/run/plugin/discovery.py",
+        "path_type": "hardlink",
+        "sha256": "b5b1c8c7ac3bcf98169a17f1238898169571ee3790f04c2d3839ca27109cd5df",
+        "sha256_in_prefix": "b5b1c8c7ac3bcf98169a17f1238898169571ee3790f04c2d3839ca27109cd5df",
+        "size_in_bytes": 1167
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/run/plugin/seeders.py",
+        "path_type": "hardlink",
+        "sha256": "825967ea5207ff0c36dd3afd6f377544bb06d51a3ca4129c8b04818d39552b68",
+        "sha256_in_prefix": "825967ea5207ff0c36dd3afd6f377544bb06d51a3ca4129c8b04818d39552b68",
+        "size_in_bytes": 1006
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/run/session.py",
+        "path_type": "hardlink",
+        "sha256": "80012b1e042aec112659cf88b2aa01e80d22d81c695c449b5d8bc8f9f58ed6f5",
+        "sha256_in_prefix": "80012b1e042aec112659cf88b2aa01e80d22d81c695c449b5d8bc8f9f58ed6f5",
+        "size_in_bytes": 2385
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/seed/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/seed/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "9cac3ccffd007131a204d36ea13e33b040690d15459d91e9f024787a1536e1c3",
+        "sha256_in_prefix": "9cac3ccffd007131a204d36ea13e33b040690d15459d91e9f024787a1536e1c3",
+        "size_in_bytes": 165
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/seed/__pycache__/seeder.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "7eaf7681b35036dd467e47a3878a28dfccfb527c9684062d275080b7c36faff3",
+        "sha256_in_prefix": "7eaf7681b35036dd467e47a3878a28dfccfb527c9684062d275080b7c36faff3",
+        "size_in_bytes": 1832
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/seed/embed/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/seed/embed/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "4565472ab2585296ddd1791033f7446d5a98cffe3d088afbb8af0e5d741be623",
+        "sha256_in_prefix": "4565472ab2585296ddd1791033f7446d5a98cffe3d088afbb8af0e5d741be623",
+        "size_in_bytes": 171
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/seed/embed/__pycache__/base_embed.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "7fc967b74926ed3900ffb84f58510e3c40e1ea060794ee366e4651ea1be586ed",
+        "sha256_in_prefix": "7fc967b74926ed3900ffb84f58510e3c40e1ea060794ee366e4651ea1be586ed",
+        "size_in_bytes": 6126
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/seed/embed/__pycache__/pip_invoke.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "294cfd531b1cafab9605e015f91920f0ad3de706e38525096ff9487ea6b34906",
+        "sha256_in_prefix": "294cfd531b1cafab9605e015f91920f0ad3de706e38525096ff9487ea6b34906",
+        "size_in_bytes": 4110
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/seed/embed/base_embed.py",
+        "path_type": "hardlink",
+        "sha256": "db263b82d7cc9af0a560521940f368dd6a5423dba504512b17327a1d81600d1f",
+        "sha256_in_prefix": "db263b82d7cc9af0a560521940f368dd6a5423dba504512b17327a1d81600d1f",
+        "size_in_bytes": 3816
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/seed/embed/pip_invoke.py",
+        "path_type": "hardlink",
+        "sha256": "36ffa320f354022282f1cc3dc236284e859b0be6882690986b232fadda66cdc3",
+        "sha256_in_prefix": "36ffa320f354022282f1cc3dc236284e859b0be6882690986b232fadda66cdc3",
+        "size_in_bytes": 2095
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/seed/embed/via_app_data/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/seed/embed/via_app_data/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "ca2141fea03fd0b67d6298fe3bc1aec9c08582adb9075d0748a0881dbae6bb74",
+        "sha256_in_prefix": "ca2141fea03fd0b67d6298fe3bc1aec9c08582adb9075d0748a0881dbae6bb74",
+        "size_in_bytes": 184
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/seed/embed/via_app_data/__pycache__/via_app_data.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "f6d302c271215856f8c06604b55166d3f143b2f4b5bc298e8f6ae5c6dc371e70",
+        "sha256_in_prefix": "f6d302c271215856f8c06604b55166d3f143b2f4b5bc298e8f6ae5c6dc371e70",
+        "size_in_bytes": 9562
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/seed/embed/via_app_data/pip_install/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/seed/embed/via_app_data/pip_install/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "6bbfaf1b2b00b47293c8b328b53e3ecc80170cda2591af4c8b19d3d1bd30ab78",
+        "sha256_in_prefix": "6bbfaf1b2b00b47293c8b328b53e3ecc80170cda2591af4c8b19d3d1bd30ab78",
+        "size_in_bytes": 196
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/seed/embed/via_app_data/pip_install/__pycache__/base.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "5ab2f28f4522e8639d2d25690ee66bca22d890bcc8ecb21c436a6154101b4e68",
+        "sha256_in_prefix": "5ab2f28f4522e8639d2d25690ee66bca22d890bcc8ecb21c436a6154101b4e68",
+        "size_in_bytes": 16404
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/seed/embed/via_app_data/pip_install/__pycache__/copy.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "382fa2483e2e8566045485c1688baf62d2e739056aa8f50e1b6cf2e47f088d67",
+        "sha256_in_prefix": "382fa2483e2e8566045485c1688baf62d2e739056aa8f50e1b6cf2e47f088d67",
+        "size_in_bytes": 3022
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/seed/embed/via_app_data/pip_install/__pycache__/symlink.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "4e3ac5e10115bcf6cc9a9cc1a4dfdc8d61a509926b56baa5c257724a2ce61106",
+        "sha256_in_prefix": "4e3ac5e10115bcf6cc9a9cc1a4dfdc8d61a509926b56baa5c257724a2ce61106",
+        "size_in_bytes": 4576
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/seed/embed/via_app_data/pip_install/base.py",
+        "path_type": "hardlink",
+        "sha256": "ab373f3b2164643d520c119b1f0d0f7d66ff567e109a0873ace6690894da9929",
+        "sha256_in_prefix": "ab373f3b2164643d520c119b1f0d0f7d66ff567e109a0873ace6690894da9929",
+        "size_in_bytes": 8090
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/seed/embed/via_app_data/pip_install/copy.py",
+        "path_type": "hardlink",
+        "sha256": "cc000a3566235eef8db4d6157e86dfbc13a08fd5530892baa0cf39b3f4df5923",
+        "sha256_in_prefix": "cc000a3566235eef8db4d6157e86dfbc13a08fd5530892baa0cf39b3f4df5923",
+        "size_in_bytes": 1190
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/seed/embed/via_app_data/pip_install/symlink.py",
+        "path_type": "hardlink",
+        "sha256": "a5a9c77fa3b31745d94c6121ae863050f88526e91612363ce3d7cdb564cca8c0",
+        "sha256_in_prefix": "a5a9c77fa3b31745d94c6121ae863050f88526e91612363ce3d7cdb564cca8c0",
+        "size_in_bytes": 2034
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/seed/embed/via_app_data/via_app_data.py",
+        "path_type": "hardlink",
+        "sha256": "e1ec0d0db4f6547ff716102ca733976ae6679820b5118715004b981e5fc1c792",
+        "sha256_in_prefix": "e1ec0d0db4f6547ff716102ca733976ae6679820b5118715004b981e5fc1c792",
+        "size_in_bytes": 5798
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/seed/seeder.py",
+        "path_type": "hardlink",
+        "sha256": "660412a24238b558a5ba4572eaba2a995391fc20d3fb451211550aa4f53f4f93",
+        "sha256_in_prefix": "660412a24238b558a5ba4572eaba2a995391fc20d3fb451211550aa4f53f4f93",
+        "size_in_bytes": 1132
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/seed/wheels/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "0debad760b3cf92d7260b8c9efc01b35fa59a991774ec26215bbf2058178915a",
+        "sha256_in_prefix": "0debad760b3cf92d7260b8c9efc01b35fa59a991774ec26215bbf2058178915a",
+        "size_in_bytes": 168
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/seed/wheels/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "0f82cb44ff5c2dd62a01629abb3542fcfa954cf809790c765814649105b666ef",
+        "sha256_in_prefix": "0f82cb44ff5c2dd62a01629abb3542fcfa954cf809790c765814649105b666ef",
+        "size_in_bytes": 389
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/seed/wheels/__pycache__/acquire.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "6be1f08d96f56597a78fb3fb1549a4410127dde3763d6b88ee0e0867174323b7",
+        "sha256_in_prefix": "6be1f08d96f56597a78fb3fb1549a4410127dde3763d6b88ee0e0867174323b7",
+        "size_in_bytes": 5771
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/seed/wheels/__pycache__/bundle.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "9466832b9d0fe72c63e8e8b110e9b849eea3135f54744054b72dc9061830772f",
+        "sha256_in_prefix": "9466832b9d0fe72c63e8e8b110e9b849eea3135f54744054b72dc9061830772f",
+        "size_in_bytes": 2352
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/seed/wheels/__pycache__/periodic_update.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "ede9932dd5b3c8955681420afc2521fd3738bbf702fc28a614ee859c9d181fdd",
+        "sha256_in_prefix": "ede9932dd5b3c8955681420afc2521fd3738bbf702fc28a614ee859c9d181fdd",
+        "size_in_bytes": 22782
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/seed/wheels/__pycache__/util.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "bc516fbbe1243adfc3076cb8f7295a160e0798e994ededcf2b4806e0d51de4b5",
+        "sha256_in_prefix": "bc516fbbe1243adfc3076cb8f7295a160e0798e994ededcf2b4806e0d51de4b5",
+        "size_in_bytes": 8655
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/seed/wheels/acquire.py",
+        "path_type": "hardlink",
+        "sha256": "6eca6992229739f6099b36e2ece045161207942f04048d43ba2918ca7a2102ec",
+        "sha256_in_prefix": "6eca6992229739f6099b36e2ece045161207942f04048d43ba2918ca7a2102ec",
+        "size_in_bytes": 4398
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/seed/wheels/bundle.py",
+        "path_type": "hardlink",
+        "sha256": "3a30608a91c0acc8b3e2286f5d261c439a7b2bf18d6c6560ab57c58e8e5b7500",
+        "sha256_in_prefix": "3a30608a91c0acc8b3e2286f5d261c439a7b2bf18d6c6560ab57c58e8e5b7500",
+        "size_in_bytes": 1880
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/seed/wheels/embed/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "658ab165e3ac0f217e1166b3c5496b9096f56125c83a1d223dc3c36818d2c410",
+        "sha256_in_prefix": "658ab165e3ac0f217e1166b3c5496b9096f56125c83a1d223dc3c36818d2c410",
+        "size_in_bytes": 1878
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/seed/wheels/embed/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "9b2a99d68ddbe7dfa35edd053e071261dc44824a32671918b1b441aa31912b47",
+        "sha256_in_prefix": "9b2a99d68ddbe7dfa35edd053e071261dc44824a32671918b1b441aa31912b47",
+        "size_in_bytes": 1610
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/seed/wheels/embed/pip-20.3.4-py2.py3-none-any.whl",
+        "path_type": "hardlink",
+        "sha256": "217ae5161a0e08c0fb873858806e3478c9775caffce5168b50ec885e358c199d",
+        "sha256_in_prefix": "217ae5161a0e08c0fb873858806e3478c9775caffce5168b50ec885e358c199d",
+        "size_in_bytes": 1522101
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/seed/wheels/embed/pip-21.3.1-py3-none-any.whl",
+        "path_type": "hardlink",
+        "sha256": "deaf32dcd9ab821e359cd8330786bcd077604b5c5730c0b096eda46f95c24a2d",
+        "sha256_in_prefix": "deaf32dcd9ab821e359cd8330786bcd077604b5c5730c0b096eda46f95c24a2d",
+        "size_in_bytes": 1723581
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/seed/wheels/embed/pip-22.3.1-py3-none-any.whl",
+        "path_type": "hardlink",
+        "sha256": "908c78e6bc29b676ede1c4d57981d490cb892eb45cd8c214ab6298125119e077",
+        "sha256_in_prefix": "908c78e6bc29b676ede1c4d57981d490cb892eb45cd8c214ab6298125119e077",
+        "size_in_bytes": 2051534
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/seed/wheels/embed/setuptools-44.1.1-py2.py3-none-any.whl",
+        "path_type": "hardlink",
+        "sha256": "27a714c09253134e60a6fa68130f78c7037e5562c4f21f8f318f2ae900d152d5",
+        "sha256_in_prefix": "27a714c09253134e60a6fa68130f78c7037e5562c4f21f8f318f2ae900d152d5",
+        "size_in_bytes": 583493
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/seed/wheels/embed/setuptools-50.3.2-py3-none-any.whl",
+        "path_type": "hardlink",
+        "sha256": "2c242a0856fbad7efbe560df4a7add9324f340cf48df43651e9604924466794a",
+        "sha256_in_prefix": "2c242a0856fbad7efbe560df4a7add9324f340cf48df43651e9604924466794a",
+        "size_in_bytes": 785194
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/seed/wheels/embed/setuptools-59.6.0-py3-none-any.whl",
+        "path_type": "hardlink",
+        "sha256": "4ce92f1e1f8f01233ee9952c04f6b81d1e02939d6e1b488428154974a4d0783e",
+        "sha256_in_prefix": "4ce92f1e1f8f01233ee9952c04f6b81d1e02939d6e1b488428154974a4d0783e",
+        "size_in_bytes": 952597
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/seed/wheels/embed/setuptools-65.6.3-py3-none-any.whl",
+        "path_type": "hardlink",
+        "sha256": "57f6f22bde4e042978bcd50176fdb381d7c21a9efa4041202288d3737a0c6a54",
+        "sha256_in_prefix": "57f6f22bde4e042978bcd50176fdb381d7c21a9efa4041202288d3737a0c6a54",
+        "size_in_bytes": 1233963
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/seed/wheels/embed/wheel-0.37.1-py2.py3-none-any.whl",
+        "path_type": "hardlink",
+        "sha256": "4bdcd7d840138086126cd09254dc6195fb4fc6f01c050a1d7236f2630db1d22a",
+        "sha256_in_prefix": "4bdcd7d840138086126cd09254dc6195fb4fc6f01c050a1d7236f2630db1d22a",
+        "size_in_bytes": 35301
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/seed/wheels/embed/wheel-0.38.4-py3-none-any.whl",
+        "path_type": "hardlink",
+        "sha256": "b60533f3f5d530e971d6737ca6d58681ee434818fab630c83a734bb10c083ce8",
+        "sha256_in_prefix": "b60533f3f5d530e971d6737ca6d58681ee434818fab630c83a734bb10c083ce8",
+        "size_in_bytes": 36051
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/seed/wheels/periodic_update.py",
+        "path_type": "hardlink",
+        "sha256": "69df7e87151cef0c82c9855b545a81f64bc655450dbd0e6f2384c09d3cab32ec",
+        "sha256_in_prefix": "69df7e87151cef0c82c9855b545a81f64bc655450dbd0e6f2384c09d3cab32ec",
+        "size_in_bytes": 14819
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/seed/wheels/util.py",
+        "path_type": "hardlink",
+        "sha256": "8b18f038347cd4561ce1d399bb52c3458a3ef9e8f372ae5760cf845437433e38",
+        "sha256_in_prefix": "8b18f038347cd4561ce1d399bb52c3458a3ef9e8f372ae5760cf845437433e38",
+        "size_in_bytes": 3844
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/util/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/util/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "2191e099bb737ed66c86e931df685981123b90df2f5572e22922333c27de73a6",
+        "sha256_in_prefix": "2191e099bb737ed66c86e931df685981123b90df2f5572e22922333c27de73a6",
+        "size_in_bytes": 165
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/util/__pycache__/error.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "fb68a9a493db2c3e608ccaf0708988803415d83bfb227a3a7fc4c47c0c4e535a",
+        "sha256_in_prefix": "fb68a9a493db2c3e608ccaf0708988803415d83bfb227a3a7fc4c47c0c4e535a",
+        "size_in_bytes": 922
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/util/__pycache__/lock.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "3c77f4cb096606a92a6d441fabfbfc3b37d697c8debd958b3367b21232187c5b",
+        "sha256_in_prefix": "3c77f4cb096606a92a6d441fabfbfc3b37d697c8debd958b3367b21232187c5b",
+        "size_in_bytes": 10976
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/util/__pycache__/zipapp.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "c6d606246fe0a7456ef29b672afed137d1515254f50baf22f05e1408a8925cfe",
+        "sha256_in_prefix": "c6d606246fe0a7456ef29b672afed137d1515254f50baf22f05e1408a8925cfe",
+        "size_in_bytes": 2532
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/util/error.py",
+        "path_type": "hardlink",
+        "sha256": "7ea2cc5e8bbfb73124fc1a7fb617789649c8a71c1d7b5afd04fbe0e1e6415333",
+        "sha256_in_prefix": "7ea2cc5e8bbfb73124fc1a7fb617789649c8a71c1d7b5afd04fbe0e1e6415333",
+        "size_in_bytes": 272
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/util/lock.py",
+        "path_type": "hardlink",
+        "sha256": "9cc5b827a2b91b08a25b5f28f08e1dca0eb332908c3bd8fda8d22556b241784b",
+        "sha256_in_prefix": "9cc5b827a2b91b08a25b5f28f08e1dca0eb332908c3bd8fda8d22556b241784b",
+        "size_in_bytes": 4662
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/util/path/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "489aa74cd010138d51bde20c4501ca8e527ebb2344ce36dabc96b98cd665e8c0",
+        "sha256_in_prefix": "489aa74cd010138d51bde20c4501ca8e527ebb2344ce36dabc96b98cd665e8c0",
+        "size_in_bytes": 304
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/util/path/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "30e5240efdec819e004ee1bb22966357621d28efb318c2a68f1cd02f49daa43b",
+        "sha256_in_prefix": "30e5240efdec819e004ee1bb22966357621d28efb318c2a68f1cd02f49daa43b",
+        "size_in_bytes": 545
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/util/path/__pycache__/_permission.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "0fc4612e673244b97e297c775d1f31075cbcc7922881fcb6e55261ffe58f0f9b",
+        "sha256_in_prefix": "0fc4612e673244b97e297c775d1f31075cbcc7922881fcb6e55261ffe58f0f9b",
+        "size_in_bytes": 1492
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/util/path/__pycache__/_sync.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "4bfb6287161d6899706d5d473288c1a815b48d2d4db009c0467b1a87a1970fc5",
+        "sha256_in_prefix": "4bfb6287161d6899706d5d473288c1a815b48d2d4db009c0467b1a87a1970fc5",
+        "size_in_bytes": 4868
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/util/path/__pycache__/_win.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "eb0d45b0e0c4ab1725253ee9516b67847302f049345d796331f3c0f3f1108c41",
+        "sha256_in_prefix": "eb0d45b0e0c4ab1725253ee9516b67847302f049345d796331f3c0f3f1108c41",
+        "size_in_bytes": 1024
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/util/path/_permission.py",
+        "path_type": "hardlink",
+        "sha256": "f1fa270636d46379fdfd72457f92174ce787ea3b190b0c1435be273b01165f9b",
+        "sha256_in_prefix": "f1fa270636d46379fdfd72457f92174ce787ea3b190b0c1435be273b01165f9b",
+        "size_in_bytes": 629
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/util/path/_sync.py",
+        "path_type": "hardlink",
+        "sha256": "5b8aa2f7e8f925fe41daefc00ccfdf9628d50e49315ee8dae212a5ab978784ca",
+        "sha256_in_prefix": "5b8aa2f7e8f925fe41daefc00ccfdf9628d50e49315ee8dae212a5ab978784ca",
+        "size_in_bytes": 1924
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/util/path/_win.py",
+        "path_type": "hardlink",
+        "sha256": "1cd24d8016eb9ec61d9e137d7d1c561113706c67ec3beeba54f43c69cae6a4ef",
+        "sha256_in_prefix": "1cd24d8016eb9ec61d9e137d7d1c561113706c67ec3beeba54f43c69cae6a4ef",
+        "size_in_bytes": 766
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/util/subprocess/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "fcab50b31d002598c6b6db8e0ca0817b65f6b6ba31617a39280d0be7cfa45b01",
+        "sha256_in_prefix": "fcab50b31d002598c6b6db8e0ca0817b65f6b6ba31617a39280d0be7cfa45b01",
+        "size_in_bytes": 652
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/util/subprocess/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "d60ab77d055c0fc988e3490e81415ad464856a085b27db000833bfcd5404e035",
+        "sha256_in_prefix": "d60ab77d055c0fc988e3490e81415ad464856a085b27db000833bfcd5404e035",
+        "size_in_bytes": 1071
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/util/zipapp.py",
+        "path_type": "hardlink",
+        "sha256": "a04a8d3667ff95138f419188df096d51a2a4b01ca495d1754ddc85132394055a",
+        "sha256_in_prefix": "a04a8d3667ff95138f419188df096d51a2a4b01ca495d1754ddc85132394055a",
+        "size_in_bytes": 982
+      },
+      {
+        "_path": "lib/python3.11/site-packages/virtualenv/version.py",
+        "path_type": "hardlink",
+        "sha256": "63bf37995c21659a0d49fc1255835e22063b3fdca6d59ed07e6cc5d0f734f80b",
+        "sha256_in_prefix": "63bf37995c21659a0d49fc1255835e22063b3fdca6d59ed07e6cc5d0f734f80b",
+        "size_in_bytes": 66
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "2f5636ec0a1677310fb6d7dc4d3e2aab471b513e4629b757cbb620f5ea90c7ac",
+  "size": 6526745,
+  "subdir": "linux-64",
+  "timestamp": 1679038293000,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/virtualenv-20.17.1-py311h06a4308_0.conda",
+  "version": "20.17.1"
+}

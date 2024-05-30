@@ -1,0 +1,145 @@
+{
+  "build": "py311h06a4308_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.11,<3.12.0a0"
+  ],
+  "extracted_package_dir": "/opt/conda/pkgs/zipp-3.17.0-py311h06a4308_0",
+  "files": [
+    "lib/python3.11/site-packages/zipp-3.17.0.dist-info/INSTALLER",
+    "lib/python3.11/site-packages/zipp-3.17.0.dist-info/LICENSE",
+    "lib/python3.11/site-packages/zipp-3.17.0.dist-info/METADATA",
+    "lib/python3.11/site-packages/zipp-3.17.0.dist-info/RECORD",
+    "lib/python3.11/site-packages/zipp-3.17.0.dist-info/REQUESTED",
+    "lib/python3.11/site-packages/zipp-3.17.0.dist-info/WHEEL",
+    "lib/python3.11/site-packages/zipp-3.17.0.dist-info/direct_url.json",
+    "lib/python3.11/site-packages/zipp-3.17.0.dist-info/top_level.txt",
+    "lib/python3.11/site-packages/zipp/__init__.py",
+    "lib/python3.11/site-packages/zipp/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/zipp/__pycache__/glob.cpython-311.pyc",
+    "lib/python3.11/site-packages/zipp/__pycache__/py310compat.cpython-311.pyc",
+    "lib/python3.11/site-packages/zipp/glob.py",
+    "lib/python3.11/site-packages/zipp/py310compat.py"
+  ],
+  "fn": "zipp-3.17.0-py311h06a4308_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/opt/conda/pkgs/zipp-3.17.0-py311h06a4308_0",
+    "type": 1
+  },
+  "md5": "7a951094546c6fc4bca88a1fa0f1044e",
+  "name": "zipp",
+  "package_tarball_full_path": "/opt/conda/pkgs/zipp-3.17.0-py311h06a4308_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.11/site-packages/zipp-3.17.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.11/site-packages/zipp-3.17.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741",
+        "sha256_in_prefix": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741",
+        "size_in_bytes": 1023
+      },
+      {
+        "_path": "lib/python3.11/site-packages/zipp-3.17.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "6c3feabd2df6e0c2185da4e14359a1937e7c769e830910c007f46eb3f45ed9ff",
+        "sha256_in_prefix": "6c3feabd2df6e0c2185da4e14359a1937e7c769e830910c007f46eb3f45ed9ff",
+        "size_in_bytes": 3740
+      },
+      {
+        "_path": "lib/python3.11/site-packages/zipp-3.17.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "ef558c482721cc254224ee114c130eac94176eea54b129b5cc5a30ef205ddf7f",
+        "sha256_in_prefix": "ef558c482721cc254224ee114c130eac94176eea54b129b5cc5a30ef205ddf7f",
+        "size_in_bytes": 999
+      },
+      {
+        "_path": "lib/python3.11/site-packages/zipp-3.17.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.11/site-packages/zipp-3.17.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "c903798389a0e00c9b4639208bef72cb889010589b1909a5cfbf0f8a4e4eafe0",
+        "sha256_in_prefix": "c903798389a0e00c9b4639208bef72cb889010589b1909a5cfbf0f8a4e4eafe0",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "lib/python3.11/site-packages/zipp-3.17.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "e73ea89648777c7fa384377ffbc7f8d53795b9be19199a454a82937f5a349798",
+        "sha256_in_prefix": "e73ea89648777c7fa384377ffbc7f8d53795b9be19199a454a82937f5a349798",
+        "size_in_bytes": 64
+      },
+      {
+        "_path": "lib/python3.11/site-packages/zipp-3.17.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "8806dda121df686a817d56f65ee47d26a4901c2a0eb0eb46eb2f42fcb4a9a85c",
+        "sha256_in_prefix": "8806dda121df686a817d56f65ee47d26a4901c2a0eb0eb46eb2f42fcb4a9a85c",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.11/site-packages/zipp/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b099254adbaa2351b12e0bf2a38b25980fc2d5d31651250652263feff0bdecd9",
+        "sha256_in_prefix": "b099254adbaa2351b12e0bf2a38b25980fc2d5d31651250652263feff0bdecd9",
+        "size_in_bytes": 11164
+      },
+      {
+        "_path": "lib/python3.11/site-packages/zipp/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "93dc1392ba15431e30b6422fdbf491183eb179c79227a639a35dff56251a4354",
+        "sha256_in_prefix": "93dc1392ba15431e30b6422fdbf491183eb179c79227a639a35dff56251a4354",
+        "size_in_bytes": 20998
+      },
+      {
+        "_path": "lib/python3.11/site-packages/zipp/__pycache__/glob.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "6ca6f8902107ead28acce01b69e86c934f503e563aabb92b33d6919d187540a0",
+        "sha256_in_prefix": "6ca6f8902107ead28acce01b69e86c934f503e563aabb92b33d6919d187540a0",
+        "size_in_bytes": 1671
+      },
+      {
+        "_path": "lib/python3.11/site-packages/zipp/__pycache__/py310compat.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "07f1d0981f3bfb29110982ebf9e204783c8e4b53fe87b9a1a966f1ae2a469196",
+        "sha256_in_prefix": "07f1d0981f3bfb29110982ebf9e204783c8e4b53fe87b9a1a966f1ae2a469196",
+        "size_in_bytes": 471
+      },
+      {
+        "_path": "lib/python3.11/site-packages/zipp/glob.py",
+        "path_type": "hardlink",
+        "sha256": "1c01f22b11684c4e2aa47051a45ee8c35c2ac8d9538c2efceb4315be5956eddf",
+        "sha256_in_prefix": "1c01f22b11684c4e2aa47051a45ee8c35c2ac8d9538c2efceb4315be5956eddf",
+        "size_in_bytes": 899
+      },
+      {
+        "_path": "lib/python3.11/site-packages/zipp/py310compat.py",
+        "path_type": "hardlink",
+        "sha256": "799a645b4cd1b6e9e484487c8e35f780219edb67a6a0a081270ef666de119210",
+        "sha256_in_prefix": "799a645b4cd1b6e9e484487c8e35f780219edb67a6a0a081270ef666de119210",
+        "size_in_bytes": 219
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "9bd4d9066f5e3ae83c1f7d26e367d7a3bd6007403809e26babf6948fcc41d72b",
+  "size": 24576,
+  "subdir": "linux-64",
+  "timestamp": 1704207043000,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/zipp-3.17.0-py311h06a4308_0.conda",
+  "version": "3.17.0"
+}

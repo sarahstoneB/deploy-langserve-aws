@@ -1,0 +1,297 @@
+{
+  "build": "py311h06a4308_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.11,<3.12.0a0"
+  ],
+  "extracted_package_dir": "/opt/conda/pkgs/crashtest-0.4.1-py311h06a4308_0",
+  "files": [
+    "lib/python3.11/site-packages/crashtest-0.4.1.dist-info/INSTALLER",
+    "lib/python3.11/site-packages/crashtest-0.4.1.dist-info/LICENSE",
+    "lib/python3.11/site-packages/crashtest-0.4.1.dist-info/METADATA",
+    "lib/python3.11/site-packages/crashtest-0.4.1.dist-info/RECORD",
+    "lib/python3.11/site-packages/crashtest-0.4.1.dist-info/REQUESTED",
+    "lib/python3.11/site-packages/crashtest-0.4.1.dist-info/WHEEL",
+    "lib/python3.11/site-packages/crashtest-0.4.1.dist-info/direct_url.json",
+    "lib/python3.11/site-packages/crashtest-0.4.1.dist-info/top_level.txt",
+    "lib/python3.11/site-packages/crashtest/__init__.py",
+    "lib/python3.11/site-packages/crashtest/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/crashtest/__pycache__/frame.cpython-311.pyc",
+    "lib/python3.11/site-packages/crashtest/__pycache__/frame_collection.cpython-311.pyc",
+    "lib/python3.11/site-packages/crashtest/__pycache__/inspector.cpython-311.pyc",
+    "lib/python3.11/site-packages/crashtest/contracts/__init__.py",
+    "lib/python3.11/site-packages/crashtest/contracts/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/crashtest/contracts/__pycache__/base_solution.cpython-311.pyc",
+    "lib/python3.11/site-packages/crashtest/contracts/__pycache__/has_solutions_for_exception.cpython-311.pyc",
+    "lib/python3.11/site-packages/crashtest/contracts/__pycache__/provides_solution.cpython-311.pyc",
+    "lib/python3.11/site-packages/crashtest/contracts/__pycache__/solution.cpython-311.pyc",
+    "lib/python3.11/site-packages/crashtest/contracts/__pycache__/solution_provider_repository.cpython-311.pyc",
+    "lib/python3.11/site-packages/crashtest/contracts/base_solution.py",
+    "lib/python3.11/site-packages/crashtest/contracts/has_solutions_for_exception.py",
+    "lib/python3.11/site-packages/crashtest/contracts/provides_solution.py",
+    "lib/python3.11/site-packages/crashtest/contracts/solution.py",
+    "lib/python3.11/site-packages/crashtest/contracts/solution_provider_repository.py",
+    "lib/python3.11/site-packages/crashtest/frame.py",
+    "lib/python3.11/site-packages/crashtest/frame_collection.py",
+    "lib/python3.11/site-packages/crashtest/inspector.py",
+    "lib/python3.11/site-packages/crashtest/py.typed",
+    "lib/python3.11/site-packages/crashtest/solution_providers/__init__.py",
+    "lib/python3.11/site-packages/crashtest/solution_providers/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/crashtest/solution_providers/__pycache__/solution_provider_repository.cpython-311.pyc",
+    "lib/python3.11/site-packages/crashtest/solution_providers/solution_provider_repository.py"
+  ],
+  "fn": "crashtest-0.4.1-py311h06a4308_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/opt/conda/pkgs/crashtest-0.4.1-py311h06a4308_0",
+    "type": 1
+  },
+  "md5": "c11599b40f6daa4a9d318f7e90fd6d8f",
+  "name": "crashtest",
+  "package_tarball_full_path": "/opt/conda/pkgs/crashtest-0.4.1-py311h06a4308_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.11/site-packages/crashtest-0.4.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.11/site-packages/crashtest-0.4.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "f1978133782b90f4733bc308ddb19267c3fe04797c88d9ed3bc219032495a982",
+        "sha256_in_prefix": "f1978133782b90f4733bc308ddb19267c3fe04797c88d9ed3bc219032495a982",
+        "size_in_bytes": 1062
+      },
+      {
+        "_path": "lib/python3.11/site-packages/crashtest-0.4.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "19705b75b7fe0a055ea23bb4e7276cd7527c98f51466ef2d2e9117498d9c2b04",
+        "sha256_in_prefix": "19705b75b7fe0a055ea23bb4e7276cd7527c98f51466ef2d2e9117498d9c2b04",
+        "size_in_bytes": 645
+      },
+      {
+        "_path": "lib/python3.11/site-packages/crashtest-0.4.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "f193ba55b2813b917795d1953513eea0ebd96f9da0c7068879bb23bc2b2d73e6",
+        "sha256_in_prefix": "f193ba55b2813b917795d1953513eea0ebd96f9da0c7068879bb23bc2b2d73e6",
+        "size_in_bytes": 2639
+      },
+      {
+        "_path": "lib/python3.11/site-packages/crashtest-0.4.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.11/site-packages/crashtest-0.4.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "db07a93359e4e034b8785a58ad6d534ea3dca0635f1e184efe2e66e1c3a299ba",
+        "sha256_in_prefix": "db07a93359e4e034b8785a58ad6d534ea3dca0635f1e184efe2e66e1c3a299ba",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "lib/python3.11/site-packages/crashtest-0.4.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "581f11b9db96d0582c24f80466bc28c650161f4f7b556699605ff4ccf13e3ee6",
+        "sha256_in_prefix": "581f11b9db96d0582c24f80466bc28c650161f4f7b556699605ff4ccf13e3ee6",
+        "size_in_bytes": 69
+      },
+      {
+        "_path": "lib/python3.11/site-packages/crashtest-0.4.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "415b52c39ce9f74cecb6f50be51a751765d99a78a00abc90bf89ab12fa3cbe92",
+        "sha256_in_prefix": "415b52c39ce9f74cecb6f50be51a751765d99a78a00abc90bf89ab12fa3cbe92",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "lib/python3.11/site-packages/crashtest/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "a273054fc2bb6f5bc1b8ac94ffb026b7249039164049409d098e3652902290c3",
+        "sha256_in_prefix": "a273054fc2bb6f5bc1b8ac94ffb026b7249039164049409d098e3652902290c3",
+        "size_in_bytes": 59
+      },
+      {
+        "_path": "lib/python3.11/site-packages/crashtest/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "827c24a0af1a0022a6efee834c4b7ed98e6efca2d952daa21da4b64eb2b96bd8",
+        "sha256_in_prefix": "827c24a0af1a0022a6efee834c4b7ed98e6efca2d952daa21da4b64eb2b96bd8",
+        "size_in_bytes": 248
+      },
+      {
+        "_path": "lib/python3.11/site-packages/crashtest/__pycache__/frame.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "da666ce09554967a0fd7e409f8215325e34c86606529b140d5c938c5b0feb84b",
+        "sha256_in_prefix": "da666ce09554967a0fd7e409f8215325e34c86606529b140d5c938c5b0feb84b",
+        "size_in_bytes": 4209
+      },
+      {
+        "_path": "lib/python3.11/site-packages/crashtest/__pycache__/frame_collection.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "2f940d9c729a55a5601ea66301c320b13a2d3147ef2751b939e90a4ebd5276a8",
+        "sha256_in_prefix": "2f940d9c729a55a5601ea66301c320b13a2d3147ef2751b939e90a4ebd5276a8",
+        "size_in_bytes": 3573
+      },
+      {
+        "_path": "lib/python3.11/site-packages/crashtest/__pycache__/inspector.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "c0cbdfaf3b2bfdb16df4717c1226ef01d3a1a4edd1e64e32e5b89eed4c346310",
+        "sha256_in_prefix": "c0cbdfaf3b2bfdb16df4717c1226ef01d3a1a4edd1e64e32e5b89eed4c346310",
+        "size_in_bytes": 2885
+      },
+      {
+        "_path": "lib/python3.11/site-packages/crashtest/contracts/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.11/site-packages/crashtest/contracts/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "86166312a62e4dae436390d7c34b4412a59a801eafeb651538a1dee77e05bfb0",
+        "sha256_in_prefix": "86166312a62e4dae436390d7c34b4412a59a801eafeb651538a1dee77e05bfb0",
+        "size_in_bytes": 169
+      },
+      {
+        "_path": "lib/python3.11/site-packages/crashtest/contracts/__pycache__/base_solution.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "57d744072c8a31e9de22e4150cad468b734d16117e89c21dd9a4c0a1252a2e82",
+        "sha256_in_prefix": "57d744072c8a31e9de22e4150cad468b734d16117e89c21dd9a4c0a1252a2e82",
+        "size_in_bytes": 1549
+      },
+      {
+        "_path": "lib/python3.11/site-packages/crashtest/contracts/__pycache__/has_solutions_for_exception.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "0a6138e357a843d84f9fb1a10663db39ce17e007b33cb060ef8bed24f05bc68a",
+        "sha256_in_prefix": "0a6138e357a843d84f9fb1a10663db39ce17e007b33cb060ef8bed24f05bc68a",
+        "size_in_bytes": 1141
+      },
+      {
+        "_path": "lib/python3.11/site-packages/crashtest/contracts/__pycache__/provides_solution.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "8cf1e0bc001a5f523720a2a16c571384548a2e1f25c3a7e25f22a8966fd486bb",
+        "sha256_in_prefix": "8cf1e0bc001a5f523720a2a16c571384548a2e1f25c3a7e25f22a8966fd486bb",
+        "size_in_bytes": 887
+      },
+      {
+        "_path": "lib/python3.11/site-packages/crashtest/contracts/__pycache__/solution.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "51a1063eb0cf3b7efffccb44b88fb3d57742be8ddc42c2a7e4764c083bb1f0ad",
+        "sha256_in_prefix": "51a1063eb0cf3b7efffccb44b88fb3d57742be8ddc42c2a7e4764c083bb1f0ad",
+        "size_in_bytes": 1164
+      },
+      {
+        "_path": "lib/python3.11/site-packages/crashtest/contracts/__pycache__/solution_provider_repository.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "40ca1cdecc6c9a4f6d4adf1b1890273096502baa7d8ad36107929616d2699a24",
+        "sha256_in_prefix": "40ca1cdecc6c9a4f6d4adf1b1890273096502baa7d8ad36107929616d2699a24",
+        "size_in_bytes": 1541
+      },
+      {
+        "_path": "lib/python3.11/site-packages/crashtest/contracts/base_solution.py",
+        "path_type": "hardlink",
+        "sha256": "7768a374042b3cf743aecc26596dbe7830e5f9ae26c1321a761a6b2d432cb3a7",
+        "sha256_in_prefix": "7768a374042b3cf743aecc26596dbe7830e5f9ae26c1321a761a6b2d432cb3a7",
+        "size_in_bytes": 554
+      },
+      {
+        "_path": "lib/python3.11/site-packages/crashtest/contracts/has_solutions_for_exception.py",
+        "path_type": "hardlink",
+        "sha256": "7bc1a2351c2dc9ebce7522ea798235affdd276541e5a291179e9224fb4d1fa48",
+        "sha256_in_prefix": "7bc1a2351c2dc9ebce7522ea798235affdd276541e5a291179e9224fb4d1fa48",
+        "size_in_bytes": 374
+      },
+      {
+        "_path": "lib/python3.11/site-packages/crashtest/contracts/provides_solution.py",
+        "path_type": "hardlink",
+        "sha256": "4c4a67242a5583cfde4aabb27ec314ec4f7fe4710b1ba3dbf9ccb6d9633c7be7",
+        "sha256_in_prefix": "4c4a67242a5583cfde4aabb27ec314ec4f7fe4710b1ba3dbf9ccb6d9633c7be7",
+        "size_in_bytes": 255
+      },
+      {
+        "_path": "lib/python3.11/site-packages/crashtest/contracts/solution.py",
+        "path_type": "hardlink",
+        "sha256": "25157655461f737cec0728a39463b4181f5cdc9a72eae1cfaf02071593c4dd13",
+        "sha256_in_prefix": "25157655461f737cec0728a39463b4181f5cdc9a72eae1cfaf02071593c4dd13",
+        "size_in_bytes": 333
+      },
+      {
+        "_path": "lib/python3.11/site-packages/crashtest/contracts/solution_provider_repository.py",
+        "path_type": "hardlink",
+        "sha256": "ab116c857a3ea76902ab0791ffa7fd952c07657341d5835edd269d61d8b40872",
+        "sha256_in_prefix": "ab116c857a3ea76902ab0791ffa7fd952c07657341d5835edd269d61d8b40872",
+        "size_in_bytes": 615
+      },
+      {
+        "_path": "lib/python3.11/site-packages/crashtest/frame.py",
+        "path_type": "hardlink",
+        "sha256": "cc0f74ebd0c3a1be85cabc964e1e8dc9925bacc816178af341f0bbc0515c533d",
+        "sha256_in_prefix": "cc0f74ebd0c3a1be85cabc964e1e8dc9925bacc816178af341f0bbc0515c533d",
+        "size_in_bytes": 2231
+      },
+      {
+        "_path": "lib/python3.11/site-packages/crashtest/frame_collection.py",
+        "path_type": "hardlink",
+        "sha256": "72eb267f613ad8fd13e43de25b9b04b4a0ab8cd2c0e4956be7a4092e96fb049e",
+        "sha256_in_prefix": "72eb267f613ad8fd13e43de25b9b04b4a0ab8cd2c0e4956be7a4092e96fb049e",
+        "size_in_bytes": 2207
+      },
+      {
+        "_path": "lib/python3.11/site-packages/crashtest/inspector.py",
+        "path_type": "hardlink",
+        "sha256": "9d8c0f6777956b2e89b6cfe32153c864abc9d8417dfef9f9207f2963d183c6ed",
+        "sha256_in_prefix": "9d8c0f6777956b2e89b6cfe32153c864abc9d8417dfef9f9207f2963d183c6ed",
+        "size_in_bytes": 1337
+      },
+      {
+        "_path": "lib/python3.11/site-packages/crashtest/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.11/site-packages/crashtest/solution_providers/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.11/site-packages/crashtest/solution_providers/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "7f3ef47bb9e0085bc9b9021159afd34d6e3b7b45702d39c7d8a6aa5e7d581c76",
+        "sha256_in_prefix": "7f3ef47bb9e0085bc9b9021159afd34d6e3b7b45702d39c7d8a6aa5e7d581c76",
+        "size_in_bytes": 178
+      },
+      {
+        "_path": "lib/python3.11/site-packages/crashtest/solution_providers/__pycache__/solution_provider_repository.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "9e4eecbc85cb8f12be15104df0189b6024f5186368e30bb18e27ba10943bec67",
+        "sha256_in_prefix": "9e4eecbc85cb8f12be15104df0189b6024f5186368e30bb18e27ba10943bec67",
+        "size_in_bytes": 3232
+      },
+      {
+        "_path": "lib/python3.11/site-packages/crashtest/solution_providers/solution_provider_repository.py",
+        "path_type": "hardlink",
+        "sha256": "c8cedc91c56617c9d4f3360096812c609cb7256ede2c8363df9bcc9d4e097f0a",
+        "sha256_in_prefix": "c8cedc91c56617c9d4f3360096812c609cb7256ede2c8363df9bcc9d4e097f0a",
+        "size_in_bytes": 2145
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "1168e283ed5bd9fab80c3e866bc3b17290a96d61a40ba3c30298d58c56505068",
+  "size": 18062,
+  "subdir": "linux-64",
+  "timestamp": 1679422403000,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/crashtest-0.4.1-py311h06a4308_0.conda",
+  "version": "0.4.1"
+}

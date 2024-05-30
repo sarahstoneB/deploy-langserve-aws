@@ -1,0 +1,115 @@
+{
+  "build": "py311h06a4308_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "mypy_extensions >=0.3.0",
+    "python >=3.11,<3.12.0a0",
+    "typing_extensions >=3.7.4"
+  ],
+  "extracted_package_dir": "/opt/conda/pkgs/typing_inspect-0.9.0-py311h06a4308_0",
+  "files": [
+    "lib/python3.11/site-packages/__pycache__/typing_inspect.cpython-311.pyc",
+    "lib/python3.11/site-packages/typing_inspect-0.9.0.dist-info/INSTALLER",
+    "lib/python3.11/site-packages/typing_inspect-0.9.0.dist-info/LICENSE",
+    "lib/python3.11/site-packages/typing_inspect-0.9.0.dist-info/METADATA",
+    "lib/python3.11/site-packages/typing_inspect-0.9.0.dist-info/RECORD",
+    "lib/python3.11/site-packages/typing_inspect-0.9.0.dist-info/REQUESTED",
+    "lib/python3.11/site-packages/typing_inspect-0.9.0.dist-info/WHEEL",
+    "lib/python3.11/site-packages/typing_inspect-0.9.0.dist-info/direct_url.json",
+    "lib/python3.11/site-packages/typing_inspect-0.9.0.dist-info/top_level.txt",
+    "lib/python3.11/site-packages/typing_inspect.py"
+  ],
+  "fn": "typing_inspect-0.9.0-py311h06a4308_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/opt/conda/pkgs/typing_inspect-0.9.0-py311h06a4308_0",
+    "type": 1
+  },
+  "md5": "4bc59b9a73fb8715ecc6f0e80273c506",
+  "name": "typing_inspect",
+  "package_tarball_full_path": "/opt/conda/pkgs/typing_inspect-0.9.0-py311h06a4308_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.11/site-packages/__pycache__/typing_inspect.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "8ad582c531cf52b3c16e36e77fa15e48e59d2b5c146c0eb2e14c5deea59f8cc9",
+        "sha256_in_prefix": "8ad582c531cf52b3c16e36e77fa15e48e59d2b5c146c0eb2e14c5deea59f8cc9",
+        "size_in_bytes": 35929
+      },
+      {
+        "_path": "lib/python3.11/site-packages/typing_inspect-0.9.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.11/site-packages/typing_inspect-0.9.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "f9d3567d00ca2337f769fb28c553cc590213ecefed4ed599110c10ded2ea0117",
+        "sha256_in_prefix": "f9d3567d00ca2337f769fb28c553cc590213ecefed4ed599110c10ded2ea0117",
+        "size_in_bytes": 1087
+      },
+      {
+        "_path": "lib/python3.11/site-packages/typing_inspect-0.9.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "f74e005a3101f911eb941189f181aa5ec0be75f3a800dde2b9fb1097a56a57d9",
+        "sha256_in_prefix": "f74e005a3101f911eb941189f181aa5ec0be75f3a800dde2b9fb1097a56a57d9",
+        "size_in_bytes": 1468
+      },
+      {
+        "_path": "lib/python3.11/site-packages/typing_inspect-0.9.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "0056704f6ac0ec12d71bb157d590acd2decd6a4e90d49a88109086189fff987b",
+        "sha256_in_prefix": "0056704f6ac0ec12d71bb157d590acd2decd6a4e90d49a88109086189fff987b",
+        "size_in_bytes": 840
+      },
+      {
+        "_path": "lib/python3.11/site-packages/typing_inspect-0.9.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.11/site-packages/typing_inspect-0.9.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "db07a93359e4e034b8785a58ad6d534ea3dca0635f1e184efe2e66e1c3a299ba",
+        "sha256_in_prefix": "db07a93359e4e034b8785a58ad6d534ea3dca0635f1e184efe2e66e1c3a299ba",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "lib/python3.11/site-packages/typing_inspect-0.9.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "1ce89119259ec579f4d9bc5616d328c440b8e384e1990b69b253411a3fab1696",
+        "sha256_in_prefix": "1ce89119259ec579f4d9bc5616d328c440b8e384e1990b69b253411a3fab1696",
+        "size_in_bytes": 74
+      },
+      {
+        "_path": "lib/python3.11/site-packages/typing_inspect-0.9.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "58370c61b330bc361a977e42cfe41a28c643d8429226f07e382e1450eb0730e7",
+        "sha256_in_prefix": "58370c61b330bc361a977e42cfe41a28c643d8429226f07e382e1450eb0730e7",
+        "size_in_bytes": 15
+      },
+      {
+        "_path": "lib/python3.11/site-packages/typing_inspect.py",
+        "path_type": "hardlink",
+        "sha256": "e60216a262cf7ee0e981dde05f51a59d7d0cb97337568ad1e23d96daa5ce4624",
+        "sha256_in_prefix": "e60216a262cf7ee0e981dde05f51a59d7d0cb97337568ad1e23d96daa5ce4624",
+        "size_in_bytes": 28269
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "08bb24ead38f04b36b9caa907fe6056dc04ede253452d581eb0c02dd337f7eb5",
+  "size": 24328,
+  "subdir": "linux-64",
+  "timestamp": 1695742141000,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/typing_inspect-0.9.0-py311h06a4308_0.conda",
+  "version": "0.9.0"
+}

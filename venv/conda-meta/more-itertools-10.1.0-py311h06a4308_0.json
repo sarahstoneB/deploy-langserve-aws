@@ -1,0 +1,169 @@
+{
+  "build": "py311h06a4308_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.11,<3.12.0a0"
+  ],
+  "extracted_package_dir": "/opt/conda/pkgs/more-itertools-10.1.0-py311h06a4308_0",
+  "files": [
+    "lib/python3.11/site-packages/more_itertools-10.1.0.dist-info/INSTALLER",
+    "lib/python3.11/site-packages/more_itertools-10.1.0.dist-info/LICENSE",
+    "lib/python3.11/site-packages/more_itertools-10.1.0.dist-info/METADATA",
+    "lib/python3.11/site-packages/more_itertools-10.1.0.dist-info/RECORD",
+    "lib/python3.11/site-packages/more_itertools-10.1.0.dist-info/REQUESTED",
+    "lib/python3.11/site-packages/more_itertools-10.1.0.dist-info/WHEEL",
+    "lib/python3.11/site-packages/more_itertools-10.1.0.dist-info/direct_url.json",
+    "lib/python3.11/site-packages/more_itertools/__init__.py",
+    "lib/python3.11/site-packages/more_itertools/__init__.pyi",
+    "lib/python3.11/site-packages/more_itertools/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/more_itertools/__pycache__/more.cpython-311.pyc",
+    "lib/python3.11/site-packages/more_itertools/__pycache__/recipes.cpython-311.pyc",
+    "lib/python3.11/site-packages/more_itertools/more.py",
+    "lib/python3.11/site-packages/more_itertools/more.pyi",
+    "lib/python3.11/site-packages/more_itertools/py.typed",
+    "lib/python3.11/site-packages/more_itertools/recipes.py",
+    "lib/python3.11/site-packages/more_itertools/recipes.pyi"
+  ],
+  "fn": "more-itertools-10.1.0-py311h06a4308_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/opt/conda/pkgs/more-itertools-10.1.0-py311h06a4308_0",
+    "type": 1
+  },
+  "md5": "16df8b62773ea1a1db5b4443a7075739",
+  "name": "more-itertools",
+  "package_tarball_full_path": "/opt/conda/pkgs/more-itertools-10.1.0-py311h06a4308_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.11/site-packages/more_itertools-10.1.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.11/site-packages/more_itertools-10.1.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "09f1c8c9e941af3e584d59641ea9b87d83c0cb0fd007eb5ef391a7e2643c1a46",
+        "sha256_in_prefix": "09f1c8c9e941af3e584d59641ea9b87d83c0cb0fd007eb5ef391a7e2643c1a46",
+        "size_in_bytes": 1053
+      },
+      {
+        "_path": "lib/python3.11/site-packages/more_itertools-10.1.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "b3a4fa460e52abd84913a2a15f7f0cacfc5687c5f477d16c765778a9d6eb4154",
+        "sha256_in_prefix": "b3a4fa460e52abd84913a2a15f7f0cacfc5687c5f477d16c765778a9d6eb4154",
+        "size_in_bytes": 33830
+      },
+      {
+        "_path": "lib/python3.11/site-packages/more_itertools-10.1.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "945c4ba8820a533eab0e0ae4b9945dd84616ac8a20b5b3eb4d3d0f44f399e262",
+        "sha256_in_prefix": "945c4ba8820a533eab0e0ae4b9945dd84616ac8a20b5b3eb4d3d0f44f399e262",
+        "size_in_bytes": 1362
+      },
+      {
+        "_path": "lib/python3.11/site-packages/more_itertools-10.1.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.11/site-packages/more_itertools-10.1.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "1196c6921ec87b83e865f450f08d19b8ff5592537f4ef719e83484e546abe33e",
+        "sha256_in_prefix": "1196c6921ec87b83e865f450f08d19b8ff5592537f4ef719e83484e546abe33e",
+        "size_in_bytes": 81
+      },
+      {
+        "_path": "lib/python3.11/site-packages/more_itertools-10.1.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "231d857718c99a21a45cf6086d4e8e8bae11cc6a9b86c2046cc30f62321c875c",
+        "sha256_in_prefix": "231d857718c99a21a45cf6086d4e8e8bae11cc6a9b86c2046cc30f62321c875c",
+        "size_in_bytes": 74
+      },
+      {
+        "_path": "lib/python3.11/site-packages/more_itertools/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c1e4322719c2547d84b806a8c42f19117f958999a91e6e642c73b4e4ef0b7d13",
+        "sha256_in_prefix": "c1e4322719c2547d84b806a8c42f19117f958999a91e6e642c73b4e4ef0b7d13",
+        "size_in_bytes": 149
+      },
+      {
+        "_path": "lib/python3.11/site-packages/more_itertools/__init__.pyi",
+        "path_type": "hardlink",
+        "sha256": "e41dde4f338dd4106e38ba1bd6f09f97211bda549deaeb17410f82bfe85791e0",
+        "sha256_in_prefix": "e41dde4f338dd4106e38ba1bd6f09f97211bda549deaeb17410f82bfe85791e0",
+        "size_in_bytes": 43
+      },
+      {
+        "_path": "lib/python3.11/site-packages/more_itertools/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "897da04be1abf5843d32b6c6052fb3b6ab3fd3aaf29723216b33c8685c2a1494",
+        "sha256_in_prefix": "897da04be1abf5843d32b6c6052fb3b6ab3fd3aaf29723216b33c8685c2a1494",
+        "size_in_bytes": 329
+      },
+      {
+        "_path": "lib/python3.11/site-packages/more_itertools/__pycache__/more.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "bf476fa9345b2010cb7720f6b2e527d2cdde97e49fb3d4de3ce083d1614992bb",
+        "sha256_in_prefix": "bf476fa9345b2010cb7720f6b2e527d2cdde97e49fb3d4de3ce083d1614992bb",
+        "size_in_bytes": 179172
+      },
+      {
+        "_path": "lib/python3.11/site-packages/more_itertools/__pycache__/recipes.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "4cca1f403ac81542a4b93bf401f96687b307fecdcd34e8c4ee5f3bf5992c2626",
+        "sha256_in_prefix": "4cca1f403ac81542a4b93bf401f96687b307fecdcd34e8c4ee5f3bf5992c2626",
+        "size_in_bytes": 37161
+      },
+      {
+        "_path": "lib/python3.11/site-packages/more_itertools/more.py",
+        "path_type": "hardlink",
+        "sha256": "e97acf3b7bef7779a265beb2810b58e52a0978b9363c0c1f1103a5647c19817c",
+        "sha256_in_prefix": "e97acf3b7bef7779a265beb2810b58e52a0978b9363c0c1f1103a5647c19817c",
+        "size_in_bytes": 140481
+      },
+      {
+        "_path": "lib/python3.11/site-packages/more_itertools/more.pyi",
+        "path_type": "hardlink",
+        "sha256": "9db611b60fb4611d1732714e18ccd1cdb8043ad342fdc7e451a38c3a635558c0",
+        "sha256_in_prefix": "9db611b60fb4611d1732714e18ccd1cdb8043ad342fdc7e451a38c3a635558c0",
+        "size_in_bytes": 20726
+      },
+      {
+        "_path": "lib/python3.11/site-packages/more_itertools/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.11/site-packages/more_itertools/recipes.py",
+        "path_type": "hardlink",
+        "sha256": "18dcc996ecf4658059845fc7ddb0bb6243429bd7d9ccea01890be1d5634d0ce5",
+        "sha256_in_prefix": "18dcc996ecf4658059845fc7ddb0bb6243429bd7d9ccea01890be1d5634d0ce5",
+        "size_in_bytes": 26354
+      },
+      {
+        "_path": "lib/python3.11/site-packages/more_itertools/recipes.pyi",
+        "path_type": "hardlink",
+        "sha256": "efb206a3666a3eda7d22446ee4ccd00606ad2c1979daf3b7311ac5bcf0dc1f33",
+        "sha256_in_prefix": "efb206a3666a3eda7d22446ee4ccd00606ad2c1979daf3b7311ac5bcf0dc1f33",
+        "size_in_bytes": 4237
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "9cb1ea53a7bfb21035bb88a557206c9e64d75256367f8e9452146f49c8c2dc81",
+  "size": 105856,
+  "subdir": "linux-64",
+  "timestamp": 1700662196000,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/more-itertools-10.1.0-py311h06a4308_0.conda",
+  "version": "10.1.0"
+}

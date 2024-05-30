@@ -1,0 +1,177 @@
+{
+  "build": "py311h06a4308_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.11,<3.12.0a0"
+  ],
+  "extracted_package_dir": "/opt/conda/pkgs/lockfile-0.12.2-py311h06a4308_0",
+  "files": [
+    "lib/python3.11/site-packages/lockfile-0.12.2-py3.11.egg-info/PKG-INFO",
+    "lib/python3.11/site-packages/lockfile-0.12.2-py3.11.egg-info/SOURCES.txt",
+    "lib/python3.11/site-packages/lockfile-0.12.2-py3.11.egg-info/dependency_links.txt",
+    "lib/python3.11/site-packages/lockfile-0.12.2-py3.11.egg-info/not-zip-safe",
+    "lib/python3.11/site-packages/lockfile-0.12.2-py3.11.egg-info/pbr.json",
+    "lib/python3.11/site-packages/lockfile-0.12.2-py3.11.egg-info/top_level.txt",
+    "lib/python3.11/site-packages/lockfile/__init__.py",
+    "lib/python3.11/site-packages/lockfile/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/lockfile/__pycache__/linklockfile.cpython-311.pyc",
+    "lib/python3.11/site-packages/lockfile/__pycache__/mkdirlockfile.cpython-311.pyc",
+    "lib/python3.11/site-packages/lockfile/__pycache__/pidlockfile.cpython-311.pyc",
+    "lib/python3.11/site-packages/lockfile/__pycache__/sqlitelockfile.cpython-311.pyc",
+    "lib/python3.11/site-packages/lockfile/__pycache__/symlinklockfile.cpython-311.pyc",
+    "lib/python3.11/site-packages/lockfile/linklockfile.py",
+    "lib/python3.11/site-packages/lockfile/mkdirlockfile.py",
+    "lib/python3.11/site-packages/lockfile/pidlockfile.py",
+    "lib/python3.11/site-packages/lockfile/sqlitelockfile.py",
+    "lib/python3.11/site-packages/lockfile/symlinklockfile.py"
+  ],
+  "fn": "lockfile-0.12.2-py311h06a4308_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/opt/conda/pkgs/lockfile-0.12.2-py311h06a4308_0",
+    "type": 1
+  },
+  "md5": "a14b1bb527c511679448113851309aae",
+  "name": "lockfile",
+  "package_tarball_full_path": "/opt/conda/pkgs/lockfile-0.12.2-py311h06a4308_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.11/site-packages/lockfile-0.12.2-py3.11.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "115348556a3fff61ea85758d71607b9b3f175ae51d44810f5df98bd4ab7f3adb",
+        "sha256_in_prefix": "115348556a3fff61ea85758d71607b9b3f175ae51d44810f5df98bd4ab7f3adb",
+        "size_in_bytes": 2412
+      },
+      {
+        "_path": "lib/python3.11/site-packages/lockfile-0.12.2-py3.11.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "6e2aadbcae98b560455514def01e5f77db0ffb184aa929028133251220f35362",
+        "sha256_in_prefix": "6e2aadbcae98b560455514def01e5f77db0ffb184aa929028133251220f35362",
+        "size_in_bytes": 546
+      },
+      {
+        "_path": "lib/python3.11/site-packages/lockfile-0.12.2-py3.11.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.11/site-packages/lockfile-0.12.2-py3.11.egg-info/not-zip-safe",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.11/site-packages/lockfile-0.12.2-py3.11.egg-info/pbr.json",
+        "path_type": "hardlink",
+        "sha256": "e1a020e7ed7593d28ebc5b0bb1d56fdf1d4b6f79fe0b694dba1a484a6dfd3886",
+        "sha256_in_prefix": "e1a020e7ed7593d28ebc5b0bb1d56fdf1d4b6f79fe0b694dba1a484a6dfd3886",
+        "size_in_bytes": 46
+      },
+      {
+        "_path": "lib/python3.11/site-packages/lockfile-0.12.2-py3.11.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "3d0abe3e8f9631c12a42e96531a6a0727a4752fb15508ebf30dca059607f498d",
+        "sha256_in_prefix": "3d0abe3e8f9631c12a42e96531a6a0727a4752fb15508ebf30dca059607f498d",
+        "size_in_bytes": 9
+      },
+      {
+        "_path": "lib/python3.11/site-packages/lockfile/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "4eaa73f740f02987e13ec7f354e265f384cbf3ba5d144e5e3cd1dd5c0c6ce139",
+        "sha256_in_prefix": "4eaa73f740f02987e13ec7f354e265f384cbf3ba5d144e5e3cd1dd5c0c6ce139",
+        "size_in_bytes": 9371
+      },
+      {
+        "_path": "lib/python3.11/site-packages/lockfile/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "1a680ecfd0505b4c584fec0a1d5194873ad20b7d8c55c115fa5886c817d8922f",
+        "sha256_in_prefix": "1a680ecfd0505b4c584fec0a1d5194873ad20b7d8c55c115fa5886c817d8922f",
+        "size_in_bytes": 12964
+      },
+      {
+        "_path": "lib/python3.11/site-packages/lockfile/__pycache__/linklockfile.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "1736a3ddc9e0acb19751a9d5d5e96aeb1f60261b1f45b4b1be838369cbf6b8f6",
+        "sha256_in_prefix": "1736a3ddc9e0acb19751a9d5d5e96aeb1f60261b1f45b4b1be838369cbf6b8f6",
+        "size_in_bytes": 4146
+      },
+      {
+        "_path": "lib/python3.11/site-packages/lockfile/__pycache__/mkdirlockfile.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "c2381f8bb88911e9ce02f6e11f6fe178100c3650cb488160ea5ad3b5f02942af",
+        "sha256_in_prefix": "c2381f8bb88911e9ce02f6e11f6fe178100c3650cb488160ea5ad3b5f02942af",
+        "size_in_bytes": 4888
+      },
+      {
+        "_path": "lib/python3.11/site-packages/lockfile/__pycache__/pidlockfile.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "6573b760edf58d76e28d25eed2571293ffdac95b80b9981bc8a875d2e1a28b28",
+        "sha256_in_prefix": "6573b760edf58d76e28d25eed2571293ffdac95b80b9981bc8a875d2e1a28b28",
+        "size_in_bytes": 7277
+      },
+      {
+        "_path": "lib/python3.11/site-packages/lockfile/__pycache__/sqlitelockfile.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "07670d4a05930cb55e796964601e1cbe8747f742da66804a152d32a38cd57895",
+        "sha256_in_prefix": "07670d4a05930cb55e796964601e1cbe8747f742da66804a152d32a38cd57895",
+        "size_in_bytes": 7113
+      },
+      {
+        "_path": "lib/python3.11/site-packages/lockfile/__pycache__/symlinklockfile.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "80a31fef6b9d9a5c85032330295facf09850f1eb4a498238f28ab46536e7d171",
+        "sha256_in_prefix": "80a31fef6b9d9a5c85032330295facf09850f1eb4a498238f28ab46536e7d171",
+        "size_in_bytes": 3784
+      },
+      {
+        "_path": "lib/python3.11/site-packages/lockfile/linklockfile.py",
+        "path_type": "hardlink",
+        "sha256": "0bb387dc7e0674aebcbb8150829f1f90fda43b87f25134b28f75fa6e581fa1b7",
+        "sha256_in_prefix": "0bb387dc7e0674aebcbb8150829f1f90fda43b87f25134b28f75fa6e581fa1b7",
+        "size_in_bytes": 2652
+      },
+      {
+        "_path": "lib/python3.11/site-packages/lockfile/mkdirlockfile.py",
+        "path_type": "hardlink",
+        "sha256": "7b7aa020bf9eb5930bb12fb77edd7d896ffc210dfad0736418ea84df204ab14c",
+        "sha256_in_prefix": "7b7aa020bf9eb5930bb12fb77edd7d896ffc210dfad0736418ea84df204ab14c",
+        "size_in_bytes": 3096
+      },
+      {
+        "_path": "lib/python3.11/site-packages/lockfile/pidlockfile.py",
+        "path_type": "hardlink",
+        "sha256": "ba41fdba4e8d16ec725661b94225b0e222aaddf4fb323a9482e5fde5abd83c86",
+        "sha256_in_prefix": "ba41fdba4e8d16ec725661b94225b0e222aaddf4fb323a9482e5fde5abd83c86",
+        "size_in_bytes": 6090
+      },
+      {
+        "_path": "lib/python3.11/site-packages/lockfile/sqlitelockfile.py",
+        "path_type": "hardlink",
+        "sha256": "a364cc90c458d22c27fa22f55cc4512054ad314912e22dda8dc79e60d9ed2858",
+        "sha256_in_prefix": "a364cc90c458d22c27fa22f55cc4512054ad314912e22dda8dc79e60d9ed2858",
+        "size_in_bytes": 5506
+      },
+      {
+        "_path": "lib/python3.11/site-packages/lockfile/symlinklockfile.py",
+        "path_type": "hardlink",
+        "sha256": "001c175e6bd31ef0a5e6f88f6e54a12f73c6fa01ac2e24f5ae800c7c3470862f",
+        "sha256_in_prefix": "001c175e6bd31ef0a5e6f88f6e54a12f73c6fa01ac2e24f5ae800c7c3470862f",
+        "size_in_bytes": 2616
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "c49edeb21961db905eb1ae0e5c159b894ac6ace8558827348833385c6ac4ed11",
+  "size": 24652,
+  "subdir": "linux-64",
+  "timestamp": 1676903850000,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/lockfile-0.12.2-py311h06a4308_0.conda",
+  "version": "0.12.2"
+}

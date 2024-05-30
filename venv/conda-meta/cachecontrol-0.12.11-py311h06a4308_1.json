@@ -1,0 +1,325 @@
+{
+  "build": "py311h06a4308_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "msgpack-python >=0.5.2",
+    "python >=3.11,<3.12.0a0",
+    "requests"
+  ],
+  "extracted_package_dir": "/opt/conda/pkgs/cachecontrol-0.12.11-py311h06a4308_1",
+  "files": [
+    "bin/doesitcache",
+    "lib/python3.11/site-packages/CacheControl-0.12.11.dist-info/INSTALLER",
+    "lib/python3.11/site-packages/CacheControl-0.12.11.dist-info/LICENSE.txt",
+    "lib/python3.11/site-packages/CacheControl-0.12.11.dist-info/METADATA",
+    "lib/python3.11/site-packages/CacheControl-0.12.11.dist-info/RECORD",
+    "lib/python3.11/site-packages/CacheControl-0.12.11.dist-info/REQUESTED",
+    "lib/python3.11/site-packages/CacheControl-0.12.11.dist-info/WHEEL",
+    "lib/python3.11/site-packages/CacheControl-0.12.11.dist-info/direct_url.json",
+    "lib/python3.11/site-packages/CacheControl-0.12.11.dist-info/entry_points.txt",
+    "lib/python3.11/site-packages/CacheControl-0.12.11.dist-info/top_level.txt",
+    "lib/python3.11/site-packages/cachecontrol/__init__.py",
+    "lib/python3.11/site-packages/cachecontrol/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/cachecontrol/__pycache__/_cmd.cpython-311.pyc",
+    "lib/python3.11/site-packages/cachecontrol/__pycache__/adapter.cpython-311.pyc",
+    "lib/python3.11/site-packages/cachecontrol/__pycache__/cache.cpython-311.pyc",
+    "lib/python3.11/site-packages/cachecontrol/__pycache__/compat.cpython-311.pyc",
+    "lib/python3.11/site-packages/cachecontrol/__pycache__/controller.cpython-311.pyc",
+    "lib/python3.11/site-packages/cachecontrol/__pycache__/filewrapper.cpython-311.pyc",
+    "lib/python3.11/site-packages/cachecontrol/__pycache__/heuristics.cpython-311.pyc",
+    "lib/python3.11/site-packages/cachecontrol/__pycache__/serialize.cpython-311.pyc",
+    "lib/python3.11/site-packages/cachecontrol/__pycache__/wrapper.cpython-311.pyc",
+    "lib/python3.11/site-packages/cachecontrol/_cmd.py",
+    "lib/python3.11/site-packages/cachecontrol/adapter.py",
+    "lib/python3.11/site-packages/cachecontrol/cache.py",
+    "lib/python3.11/site-packages/cachecontrol/caches/__init__.py",
+    "lib/python3.11/site-packages/cachecontrol/caches/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/cachecontrol/caches/__pycache__/file_cache.cpython-311.pyc",
+    "lib/python3.11/site-packages/cachecontrol/caches/__pycache__/redis_cache.cpython-311.pyc",
+    "lib/python3.11/site-packages/cachecontrol/caches/file_cache.py",
+    "lib/python3.11/site-packages/cachecontrol/caches/redis_cache.py",
+    "lib/python3.11/site-packages/cachecontrol/compat.py",
+    "lib/python3.11/site-packages/cachecontrol/controller.py",
+    "lib/python3.11/site-packages/cachecontrol/filewrapper.py",
+    "lib/python3.11/site-packages/cachecontrol/heuristics.py",
+    "lib/python3.11/site-packages/cachecontrol/serialize.py",
+    "lib/python3.11/site-packages/cachecontrol/wrapper.py"
+  ],
+  "fn": "cachecontrol-0.12.11-py311h06a4308_1.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/opt/conda/pkgs/cachecontrol-0.12.11-py311h06a4308_1",
+    "type": 1
+  },
+  "md5": "afd564f993e85b5d870d52754bfb9618",
+  "name": "cachecontrol",
+  "package_tarball_full_path": "/opt/conda/pkgs/cachecontrol-0.12.11-py311h06a4308_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/doesitcache",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/work/ci_py311/cachecontrol_1676823134806/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "9ec96ffa49ae92d0f0d4827b8cab148e46b71e2938efcd0dc7f6cfd748e9c6f1",
+        "sha256_in_prefix": "12f189d9962bcb982cbb9af8cd01132a8ee65d5c056206ae5fcd5fb300837859",
+        "size_in_bytes": 470
+      },
+      {
+        "_path": "lib/python3.11/site-packages/CacheControl-0.12.11.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.11/site-packages/CacheControl-0.12.11.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "86eeee87be2a43f3ff1f56496f451f69243926f025fedbb033666c304c4c161b",
+        "sha256_in_prefix": "86eeee87be2a43f3ff1f56496f451f69243926f025fedbb033666c304c4c161b",
+        "size_in_bytes": 558
+      },
+      {
+        "_path": "lib/python3.11/site-packages/CacheControl-0.12.11.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "fd535b01652f20493d32108cb5743011c1d9708bb1b1d0030ac4e264d3150a45",
+        "sha256_in_prefix": "fd535b01652f20493d32108cb5743011c1d9708bb1b1d0030ac4e264d3150a45",
+        "size_in_bytes": 2181
+      },
+      {
+        "_path": "lib/python3.11/site-packages/CacheControl-0.12.11.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "d5c6fda811553cb925164f4ad38d7d3c5a68a22797f4cd96f68d937df229c4c3",
+        "sha256_in_prefix": "d5c6fda811553cb925164f4ad38d7d3c5a68a22797f4cd96f68d937df229c4c3",
+        "size_in_bytes": 2704
+      },
+      {
+        "_path": "lib/python3.11/site-packages/CacheControl-0.12.11.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.11/site-packages/CacheControl-0.12.11.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "cfd8f4c406bf26650a3299b3ef62b464600b48cfe7fb04159866e5797c765478",
+        "sha256_in_prefix": "cfd8f4c406bf26650a3299b3ef62b464600b48cfe7fb04159866e5797c765478",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "lib/python3.11/site-packages/CacheControl-0.12.11.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "65f23cffb79bee7a663a7c8dfd634d1504d16739ed321324184424d07cd3c686",
+        "sha256_in_prefix": "65f23cffb79bee7a663a7c8dfd634d1504d16739ed321324184424d07cd3c686",
+        "size_in_bytes": 80
+      },
+      {
+        "_path": "lib/python3.11/site-packages/CacheControl-0.12.11.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "4b29dc510bec4a436a7103aef2e136fc3f0ae5deffd9f476715eed48968cae17",
+        "sha256_in_prefix": "4b29dc510bec4a436a7103aef2e136fc3f0ae5deffd9f476715eed48968cae17",
+        "size_in_bytes": 55
+      },
+      {
+        "_path": "lib/python3.11/site-packages/CacheControl-0.12.11.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "bc6616ce96dede1ea091a915e1fee208adb1dcac8ade8324579a5ee6fdb9f9de",
+        "sha256_in_prefix": "bc6616ce96dede1ea091a915e1fee208adb1dcac8ade8324579a5ee6fdb9f9de",
+        "size_in_bytes": 13
+      },
+      {
+        "_path": "lib/python3.11/site-packages/cachecontrol/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "86bc65bf7abbba9b1fc8cc3c937810f6f6a005ac75a581d2186a98959d199343",
+        "sha256_in_prefix": "86bc65bf7abbba9b1fc8cc3c937810f6f6a005ac75a581d2186a98959d199343",
+        "size_in_bytes": 465
+      },
+      {
+        "_path": "lib/python3.11/site-packages/cachecontrol/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "44162ed588c110d6473399bb0a6fa6bb4164c8cc822aa9096c17df642c37da96",
+        "sha256_in_prefix": "44162ed588c110d6473399bb0a6fa6bb4164c8cc822aa9096c17df642c37da96",
+        "size_in_bytes": 799
+      },
+      {
+        "_path": "lib/python3.11/site-packages/cachecontrol/__pycache__/_cmd.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "bf2f0678dfdcb883b55195dab3ffff3f5b6d7cee4cb68bd0278d4051b2202cb6",
+        "sha256_in_prefix": "bf2f0678dfdcb883b55195dab3ffff3f5b6d7cee4cb68bd0278d4051b2202cb6",
+        "size_in_bytes": 2589
+      },
+      {
+        "_path": "lib/python3.11/site-packages/cachecontrol/__pycache__/adapter.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "0b62ce9ad3a52441f0a662c706e2ec9a4ad5a9f4e924ec1bf6794b18d3679c1f",
+        "sha256_in_prefix": "0b62ce9ad3a52441f0a662c706e2ec9a4ad5a9f4e924ec1bf6794b18d3679c1f",
+        "size_in_bytes": 5469
+      },
+      {
+        "_path": "lib/python3.11/site-packages/cachecontrol/__pycache__/cache.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "d06f63a8f56bff7cf67d38c4619e95e68aa23c2b6359d4708257196749af04dc",
+        "sha256_in_prefix": "d06f63a8f56bff7cf67d38c4619e95e68aa23c2b6359d4708257196749af04dc",
+        "size_in_bytes": 3737
+      },
+      {
+        "_path": "lib/python3.11/site-packages/cachecontrol/__pycache__/compat.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "d601e5c3d3d67c50c7902b7b88e4a92a12e5729261bce6b7164576959a287e69",
+        "sha256_in_prefix": "d601e5c3d3d67c50c7902b7b88e4a92a12e5729261bce6b7164576959a287e69",
+        "size_in_bytes": 1044
+      },
+      {
+        "_path": "lib/python3.11/site-packages/cachecontrol/__pycache__/controller.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "83b5f41655488aecf7fc41ccc1945fc4bb61e91f46a1b521fa38b74401a0f36d",
+        "sha256_in_prefix": "83b5f41655488aecf7fc41ccc1945fc4bb61e91f46a1b521fa38b74401a0f36d",
+        "size_in_bytes": 16487
+      },
+      {
+        "_path": "lib/python3.11/site-packages/cachecontrol/__pycache__/filewrapper.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "8e82053a4b26eff5f5c42c5b4ceb950c06cd223004d4972d7e975c966a8b7610",
+        "sha256_in_prefix": "8e82053a4b26eff5f5c42c5b4ceb950c06cd223004d4972d7e975c966a8b7610",
+        "size_in_bytes": 4202
+      },
+      {
+        "_path": "lib/python3.11/site-packages/cachecontrol/__pycache__/heuristics.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "8d6d048731b20c6ba55cdf593639442c8149483e37efbf510a8b4d76896850fb",
+        "sha256_in_prefix": "8d6d048731b20c6ba55cdf593639442c8149483e37efbf510a8b4d76896850fb",
+        "size_in_bytes": 6663
+      },
+      {
+        "_path": "lib/python3.11/site-packages/cachecontrol/__pycache__/serialize.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "0ad8da2d1e9bd21d813f3a8e66232e324d8e93bde13f9752eab0a2ecabbd28ea",
+        "sha256_in_prefix": "0ad8da2d1e9bd21d813f3a8e66232e324d8e93bde13f9752eab0a2ecabbd28ea",
+        "size_in_bytes": 8327
+      },
+      {
+        "_path": "lib/python3.11/site-packages/cachecontrol/__pycache__/wrapper.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "15b0eb2be658489a24cf9383062a854302419ff9f385b33a55306959fc2b54ad",
+        "sha256_in_prefix": "15b0eb2be658489a24cf9383062a854302419ff9f385b33a55306959fc2b54ad",
+        "size_in_bytes": 921
+      },
+      {
+        "_path": "lib/python3.11/site-packages/cachecontrol/_cmd.py",
+        "path_type": "hardlink",
+        "sha256": "1e314974680f38bb2f4bfe5ef01bea62bc1e5c98f5811edd4aca820755f6e2ec",
+        "sha256_in_prefix": "1e314974680f38bb2f4bfe5ef01bea62bc1e5c98f5811edd4aca820755f6e2ec",
+        "size_in_bytes": 1326
+      },
+      {
+        "_path": "lib/python3.11/site-packages/cachecontrol/adapter.py",
+        "path_type": "hardlink",
+        "sha256": "76ef02b072adb4058bf7ea56992bf23435731eb1fea9f8923a0a3a7dc6a733ed",
+        "sha256_in_prefix": "76ef02b072adb4058bf7ea56992bf23435731eb1fea9f8923a0a3a7dc6a733ed",
+        "size_in_bytes": 5021
+      },
+      {
+        "_path": "lib/python3.11/site-packages/cachecontrol/cache.py",
+        "path_type": "hardlink",
+        "sha256": "4edcb8e5f3a31f8d1f0a89531a4a8a42f41099b62c32993e9c2c9f2dcbf6bc6e",
+        "sha256_in_prefix": "4edcb8e5f3a31f8d1f0a89531a4a8a42f41099b62c32993e9c2c9f2dcbf6bc6e",
+        "size_in_bytes": 1535
+      },
+      {
+        "_path": "lib/python3.11/site-packages/cachecontrol/caches/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "87ed5c5263b3ea684bb234e33ab27c88f7a3a4674b0b21b89734dfb5f199bcb8",
+        "sha256_in_prefix": "87ed5c5263b3ea684bb234e33ab27c88f7a3a4674b0b21b89734dfb5f199bcb8",
+        "size_in_bytes": 242
+      },
+      {
+        "_path": "lib/python3.11/site-packages/cachecontrol/caches/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "352a1e9a27392c39d0d2225dff7644887ef8411990a1ec4a654a6e80950975fc",
+        "sha256_in_prefix": "352a1e9a27392c39d0d2225dff7644887ef8411990a1ec4a654a6e80950975fc",
+        "size_in_bytes": 374
+      },
+      {
+        "_path": "lib/python3.11/site-packages/cachecontrol/caches/__pycache__/file_cache.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "54ca6638786f8d87704627fcf678d711999934b9e88b66c855039630e913c1eb",
+        "sha256_in_prefix": "54ca6638786f8d87704627fcf678d711999934b9e88b66c855039630e913c1eb",
+        "size_in_bytes": 8365
+      },
+      {
+        "_path": "lib/python3.11/site-packages/cachecontrol/caches/__pycache__/redis_cache.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "32849a898877df0202245bf49a2c829b1be58e194dcc9f5730b337f0209d5d42",
+        "sha256_in_prefix": "32849a898877df0202245bf49a2c829b1be58e194dcc9f5730b337f0209d5d42",
+        "size_in_bytes": 2442
+      },
+      {
+        "_path": "lib/python3.11/site-packages/cachecontrol/caches/file_cache.py",
+        "path_type": "hardlink",
+        "sha256": "1a97b1704dbd2e863831a6703d44dc50165a0dd72c8eac8bc591739e4f076ebe",
+        "sha256_in_prefix": "1a97b1704dbd2e863831a6703d44dc50165a0dd72c8eac8bc591739e4f076ebe",
+        "size_in_bytes": 5271
+      },
+      {
+        "_path": "lib/python3.11/site-packages/cachecontrol/caches/redis_cache.py",
+        "path_type": "hardlink",
+        "sha256": "6c628053420e709505994fdb941237c3acca8f52f82327c33e62cdcb38e9ff2e",
+        "sha256_in_prefix": "6c628053420e709505994fdb941237c3acca8f52f82327c33e62cdcb38e9ff2e",
+        "size_in_bytes": 1021
+      },
+      {
+        "_path": "lib/python3.11/site-packages/cachecontrol/compat.py",
+        "path_type": "hardlink",
+        "sha256": "24e54ac8889ba7c9cdab78c06efee75c1b0d3ad5c754428f879bbcaf6a8b195a",
+        "sha256_in_prefix": "24e54ac8889ba7c9cdab78c06efee75c1b0d3ad5c754428f879bbcaf6a8b195a",
+        "size_in_bytes": 730
+      },
+      {
+        "_path": "lib/python3.11/site-packages/cachecontrol/controller.py",
+        "path_type": "hardlink",
+        "sha256": "ea3c93e23e0b16c22f7c3792143eb128ad794423889f013636bf1483b202b70c",
+        "sha256_in_prefix": "ea3c93e23e0b16c22f7c3792143eb128ad794423889f013636bf1483b202b70c",
+        "size_in_bytes": 16404
+      },
+      {
+        "_path": "lib/python3.11/site-packages/cachecontrol/filewrapper.py",
+        "path_type": "hardlink",
+        "sha256": "5f804040e3b6e8634e47b9c7fdf853cc07deb9cb76ac141cc7fd79332141a5cb",
+        "sha256_in_prefix": "5f804040e3b6e8634e47b9c7fdf853cc07deb9cb76ac141cc7fd79332141a5cb",
+        "size_in_bytes": 3946
+      },
+      {
+        "_path": "lib/python3.11/site-packages/cachecontrol/heuristics.py",
+        "path_type": "hardlink",
+        "sha256": "f24032b992d20b2108810afabdb5307e1a6a83da30b3898cd0857a0d66b37af2",
+        "sha256_in_prefix": "f24032b992d20b2108810afabdb5307e1a6a83da30b3898cd0857a0d66b37af2",
+        "size_in_bytes": 4154
+      },
+      {
+        "_path": "lib/python3.11/site-packages/cachecontrol/serialize.py",
+        "path_type": "hardlink",
+        "sha256": "a9b3156e75120ee4119495939faf822ab5d84a16949fd7528a0b6fb40688df10",
+        "sha256_in_prefix": "a9b3156e75120ee4119495939faf822ab5d84a16949fd7528a0b6fb40688df10",
+        "size_in_bytes": 7076
+      },
+      {
+        "_path": "lib/python3.11/site-packages/cachecontrol/wrapper.py",
+        "path_type": "hardlink",
+        "sha256": "5f7f8a319db41e8dd5b6ac95697725a5e429173a24479344f2d6527ef295681f",
+        "sha256_in_prefix": "5f7f8a319db41e8dd5b6ac95697725a5e429173a24479344f2d6527ef295681f",
+        "size_in_bytes": 774
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "56a9366b559ade59cea168361705adac396e277d8eb935381a1fd557ce5f0454",
+  "size": 43074,
+  "subdir": "linux-64",
+  "timestamp": 1676823146000,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/cachecontrol-0.12.11-py311h06a4308_1.conda",
+  "version": "0.12.11"
+}
